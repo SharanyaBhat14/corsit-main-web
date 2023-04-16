@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import logo from "../img/corsitlogo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -10,8 +11,9 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-blue-700 flex justify-between items-center h-24 max-w-full mx-auto px-4 text-white">
-      <h1 className="w-full text-3xl font-bold text-[black]">CORSIT</h1>
+    <div className="bg-blue-400 flex justify-between items-center h-24 max-w-full mx-auto px-4 text-white">
+      <img className="w-20 mt-2 " src={logo} alt="/" />
+      {/* <h1 className="w-full text-3xl font-bold text-[black]">CORSIT</h1> */}
       <ul className="hidden md:flex">
         <li className=" p-4">
           <Link to="/">Home</Link>
@@ -19,13 +21,13 @@ const Navbar = () => {
         <li className=" p-4">
           <Link to="/about">About</Link>
         </li>
-        <li className=" p-4">
+        <li className=" p-4 whitespace-nowrap">
           <Link to="/team">Our Team</Link>
         </li>
         <li className=" p-4">
           <Link to="/alumni">Alumni</Link>
         </li>
-        <li className=" p-4">
+        <li className=" p-4 whitespace-nowrap">
           <Link to="/project">Bots & Projects</Link>
         </li>
         <li className=" p-4">

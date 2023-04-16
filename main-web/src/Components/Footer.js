@@ -13,13 +13,11 @@ import { ExternalLink } from "react-external-link";
 
 const Footer = () => {
   return (
-    <div className="bg-blue-800 max-w-full mx-auto py-16 px-8 grid lg:grid-cols-3 gap-8 text-white">
+    <div className="bg-blue-500 max-w-full mx-auto py-16 px-8 grid lg:grid-cols-3 gap-8 text-white">
       <div>
         <h1 className="w-full text-3xl font-bold text-black">CORSIT</h1>
         <p className="py-4 text-justify">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit
-          ullam iste repellat consequatur libero reiciendis, blanditiis
-          accusantium.
+          Connect with us on various Social Media Handles
         </p>
         <div className="flex justify-between md:w-[75%] my-6">
           <ExternalLink href="https://www.facebook.com/thecorsit/">
@@ -65,11 +63,28 @@ const Footer = () => {
             </div>
             <div className="flex my-1">
               <FaWhatsapp className="mr-1" size={30} />
-              <li className=" py-1 text-sm">Contact us on WhatsApp</li>
+              <li className=" py-1 text-sm">
+                <a
+                  className=" "
+                  href="https://api.whatsapp.com/send?phone=916205809011"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Contact us on WhatsApp
+                </a>
+              </li>
             </div>
             <div className="my-3 flex  ">
               <MdAlternateEmail className="mr-1" size={30} />
-              <li className="py-1 text-sm">Contact us on Gmail</li>
+              <li className="py-1 text-sm">
+                <a
+                  href="mailto:corsit@sit.ac.in"
+                  target={"_blank"}
+                  rel="noreferrer"
+                >
+                  Contact us on Gmail{" "}
+                </a>
+              </li>
             </div>
           </ul>
         </div>
