@@ -1,16 +1,15 @@
 import React from "react";
 import {
-  FaDribbbleSquare,
   FaFacebookSquare,
-  FaGithubSquare,
   FaInstagram,
-  FaTwitterSquare,
+  FaYoutube,
   FaWhatsapp,
-  FaLocationArrow,
+  FaLinkedinIn,
 } from "react-icons/fa";
 
 import { MdAlternateEmail } from "react-icons/md";
 import { SlLocationPin } from "react-icons/sl";
+import { ExternalLink } from "react-external-link";
 
 const Footer = () => {
   return (
@@ -23,9 +22,21 @@ const Footer = () => {
           accusantium.
         </p>
         <div className="flex justify-between md:w-[75%] my-6">
-          <FaFacebookSquare size={30} />
-          <FaInstagram size={30} />
-          <FaGithubSquare size={30} />
+          <ExternalLink href="https://www.facebook.com/thecorsit/">
+            <FaFacebookSquare size={30} />
+          </ExternalLink>
+
+          <ExternalLink href="https://www.linkedin.com/company/corsit/mycompany/">
+            <FaInstagram size={30} />
+          </ExternalLink>
+
+          <ExternalLink href="https://www.linkedin.com/company/corsit/mycompany/">
+            <FaLinkedinIn size={30} />
+          </ExternalLink>
+
+          <ExternalLink href="https://www.youtube.com/channel/UCcm-ttunddHrEGWUdYkUd2w">
+            <FaYoutube size={30} />
+          </ExternalLink>
         </div>
       </div>
       <div className="lg:col-span-2 font-bold flex justify-around mt-6">
@@ -39,7 +50,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h6 className="font-medium text-black">NEED HELP ?</h6>
+          <h6 className="ml-8 font-medium text-black">NEED HELP ?</h6>
 
           <ul>
             <div className="flex justify-center ">

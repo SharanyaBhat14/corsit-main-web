@@ -6,6 +6,9 @@ import Triple from "../img/logo192.png";
 const Team = () => {
   return (
     <div className="w-full py-[10rem] px-4 bg-white ">
+      <h1 className="relative text-center text-3xl font-semibold my-7">
+        FOUNDERS
+      </h1>
       <div className="max-w-[1240px]  my-14 mx-auto grid md:grid-cols-3 gap-8">
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
