@@ -9,15 +9,26 @@ import Project from "./Components/Project";
 import Team from "./Components/Team";
 import Home from "./Components/Home";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import Alumni from "./Components/Alumni";
+import Footer from "./Components/Footer";
+import Navbar from "./Components/Navbar";
 
 const appRouter = createBrowserRouter([
   {
     path: "/",
-    element: <Outlet />,
+    element: (
+      <>
+        <Navbar /> <Outlet /> <Footer />
+      </>
+    ),
     children: [
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/alumni",
+        element: <Alumni />,
       },
       {
         path: "/about",
