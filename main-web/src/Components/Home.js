@@ -1,10 +1,39 @@
 import React from "react";
 import Typed from "react-typed";
+import walle from "../img/lenin-estrada-OI1ToozsKBw-unsplash.jpg";
 
 const Home = () => {
   return (
-    <div className=" text-white">
-      <div className="bg-blue-600  w-full h-screen mx-auto text-center flex flex-col justify-center">
+    <div className="w-[100%] h-[100%] relative text-white">
+      <img className="w-full h-screen object-cover" alt="HerpImg" src={walle} />
+      <div className="absolute top-40 left-[50%] w-[100%] -translate-x-[50%] -translate-y-[10%] mx-auto flex flex-col ">
+        <p className=" font-bold p-2 text-3xl">Learn with us</p>
+        <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
+          Grow with us.
+        </h1>
+        <div className="flex justify-center items-center">
+          <p className="md:text-5xl sm:text-4xl text-xl font-bold py-4">
+            Learn
+          </p>
+          <Typed
+            className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2"
+            strings={[
+              "Robotics",
+              "Web Development",
+              "Machine Learning",
+              "App Development",
+              "Arduino Programming",
+              "Augmented Reality",
+              "Photoshop",
+              "Video Editing",
+            ]}
+            typeSpeed={120}
+            backSpeed={140}
+            loop
+          />
+        </div>
+      </div>
+      {/* <div className="bg-blue-600  w-full h-screen mx-auto text-center flex flex-col justify-center">
         <p className="text-[black] font-bold p-2 text-3xl">Learn with us</p>
         <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
           Grow with us.
@@ -30,10 +59,9 @@ const Home = () => {
             loop
           />
         </div>
-        {/* <button className="bg-[black] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-white">
-          Get Started
-        </button> */}
+        
       </div>
+     */}
     </div>
   );
 };

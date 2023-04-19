@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-blue-500 flex justify-between items-center h-24 max-w-full mx-auto px-4 text-white">
+    <div className="bg-blue-500 flex justify-between items-center h-24 max-w-full mx-auto px-4 text-white ">
       <img className="w-20 mt-2 " src={logo} alt="/" />
       {/* <h1 className="w-full text-3xl font-bold text-[black]">CORSIT</h1> */}
       <ul className="hidden md:flex">
