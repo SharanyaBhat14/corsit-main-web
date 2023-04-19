@@ -4,7 +4,7 @@ import Typed from "react-typed";
 const Home = () => {
   return (
     <div className=" text-white">
-      <div className="bg-blue-400  w-full h-screen mx-auto text-center flex flex-col justify-center">
+      <div className="bg-blue-600  w-full h-screen mx-auto text-center flex flex-col justify-center">
         <p className="text-[black] font-bold p-2 text-3xl">Learn with us</p>
         <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
           Grow with us.

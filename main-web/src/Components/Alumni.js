@@ -1,65 +1,211 @@
+import { FaLinkedinIn } from "react-icons/fa";
+
+import ansa from "./images1/Ansa.jpg";
+import asra from "./images1/Asra.png";
+import gaurav from "./images1/Gaurav Kumar.jpg";
+import rahul from "./images1/Rahul Kumar.jpg";
+import rajeev from "./images1/Rajeev Ranjan.jpg";
+import rohan from "./images1/RohanJadhav.jpg";
+import shivu from "./images1/Shivu P.jpg";
+import amaan from "./images1/amanaa.jpeg";
+import anushant from "./images1/anushant.jpeg";
+import keshav from "./images1/keshav.jpg";
+import kundan from "./images1/kundan - K k.jpeg";
+import meghraj from "./images1/meghraj.jpeg";
+import pradhan from "./images1/pradhan.jpg";
+import shaswat from "./images1/shashwat.jpg";
+import shristi from "./images1/shrishti.jpeg";
+import tanmay from "./images1/Tanmay.jpg";
+import shubham from "./images1/shubham.png";
+import vivek from "./images1/vivekMoha.jpg";
+import abhinav from "./images1/abhinav.jpeg";
+import pankaj from "./images1/pankaj.jpeg";
+import shaksham from "./images1/shaksham.jpeg";
+import manojna from "./images1/manojna.jpeg";
+
 const people = [
   {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    name: "Vivek Mohla",
+    role: "Escalation engineer Microsoft ",
+    email: "vivekmohla31@gmail.com",
+    ima: vivek,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/vivek-mohla-83a44115a",
   },
   {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    name: "Shubham Shekhar",
+    role: "Lead Developer (AI, Fullstack)",
+    email: "shubhamshekhar576@gmail.com",
+    ima: shubham,
+    git: "https://github.com/Shubham567",
+    linkedin: "https://www.linkedin.com/in/shekhar567/",
   },
   {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    name: "Gaurav Kumar",
+    role: "Manager - Advance Automation and Robotics",
+    email: "gaurav.1si11ee016@gmail.com",
+    ima: gaurav,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/gaurav-kumar-60277b9a",
   },
   {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    name: "Rahul Kumar",
+    role: "Alumni",
+    email: "rahul.1si15ee029@gmail.com",
+    ima: rahul,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/rahul-kr96",
+  },
+
+  {
+    name: "Rohan Jadhav",
+    role: "Software developer ",
+    email: "jadhavrohan534@gmail.com",
+    ima: rohan,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/rohan-jadhav-717385186",
+  },
+
+  {
+    name: "Rajeev Ranjan",
+    role: "Software Engineer at Nvidia",
+    email: "Ranjan.rajeev1609@gmail.com",
+    ima: rajeev,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/rajeev-ranjan-426b241b0/",
   },
   {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    name: "Pradhan V",
+    role: "Technical specialist ",
+    email: "pradhan772@gmail.com",
+    ima: pradhan,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/pradhan4v",
   },
   {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    name: "Kundan Kumar",
+    role: "Alumni UPSC Civil Services",
+    email: "kundan.bvm@gmail.com",
+    ima: kundan,
+    git: "kundank123",
+    linkedin: "https://www.linkedin.com/in/kundan-kumar-78a6a0145",
+  },
+
+  {
+    name: "KESHAV KUMAR MISHRA",
+    role: "Commercial Pilot",
+    email: "kkm01.1998@gmail.com",
+    ima: keshav,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/kkmhere",
+  },
+
+  {
+    name: "Pankaj M Thakur",
+    role: "Network Consulting Engineer - II at Cisco",
+    email: "",
+    ima: pankaj,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/pankajthakur62/",
   },
   {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    name: "Abhinav Kumar",
+    role: "Full Stack Developer @Speridian Technologies",
+    email: "",
+    ima: abhinav,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/abhinav-kumar-804473196/",
   },
   {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    name: "Asra Sadik",
+    role: "Alumni",
+    email: "asramdsadik@gmail.com",
+    ima: asra,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/asrasadik/",
   },
   {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    name: "Shaksham Sinha",
+    role: "SDE 1 @ yellow.ai",
+    email: "",
+    ima: shaksham,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/shaksham-sinha-788a19190/",
   },
   {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
-    imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+    name: "Manojna Rao",
+    role: "Associate Engineer @ L&T Technology Services Limited",
+    email: "",
+    ima: manojna,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/manojna-rao-002892141/",
   },
-  // More people...
+  {
+    name: "Anushant Bhushan",
+    role: "Full Stack Engineer",
+    email: "anushant.2k16@gmail.com",
+    ima: anushant,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/anushant-bhushan-354bb4184",
+  },
+  {
+    name: "Amaan Zia",
+    role: "Test Solutions Engineer at Micron Technology ",
+    email: "amaanzia1si17ec004@gmail.com",
+    ima: amaan,
+    git: "",
+    linkedin: "",
+  },
+  {
+    name: "Shivaneeth P",
+    role: "Associate software developer",
+    email: "shivu61133@gmail.com",
+    ima: shivu,
+    git: "",
+    linkedin: "",
+  },
+  {
+    name: "Shashwat Shrivastava",
+    role: "Decision Analytics Associate at ZS Associates",
+    email: "shashwat.shrivastava21@gmail.com",
+    ima: shaswat,
+    git: "",
+    linkedin:
+      "https://www.linkedin.com/mwlite/in/shashwat-shrivastava-6a49021a8",
+  },
+  {
+    name: "Srishti Gupta",
+    role: " IAM Analyst @vmware",
+    email: "2362001srishti@gmail.com",
+    ima: shristi,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/srishti-gupta-02b6b71b3",
+  },
+  {
+    name: "Ansa S Mathew",
+    role: " DC Analyst in Deloitte USI ",
+    email: "ansasmathew@gmail.com",
+    ima: ansa,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/ansa-s-mathew/",
+  },
+  {
+    name: "Tanmay M",
+    role: " Software developer",
+    email: "tanmaym2k@gmail.com",
+    ima: tanmay,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/tanmaytan",
+  },
+
+  {
+    name: "Megharaj Goudar",
+    role: "Junior Manager (JSW Steel)",
+    email: "megharajgoudar1999@gmail.com",
+    ima: meghraj,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/megharaj-goudar-8b5232193",
+  },
 ];
 
 export default function Alumni() {
@@ -79,12 +225,12 @@ export default function Alumni() {
           role="list"
           className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2"
         >
-          {people.map((person) => (
-            <li key={person.name}>
+          {people.map((person, i) => (
+            <li key={i}>
               <div className="flex items-center gap-x-6">
                 <img
                   className="h-16 w-16 rounded-full"
-                  src={person.imageUrl}
+                  src={person.ima}
                   alt=""
                 />
                 <div>
@@ -94,6 +240,9 @@ export default function Alumni() {
                   <p className="text-sm font-semibold leading-6 text-indigo-600">
                     {person.role}
                   </p>
+                  <a href={person.linkedin} target="_blank" rel="noreferrer">
+                    <FaLinkedinIn size={20} />
+                  </a>
                 </div>
               </div>
             </li>
