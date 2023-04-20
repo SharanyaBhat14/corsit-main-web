@@ -7,12 +7,12 @@ import Triple from "../img/team1c.jpg";
 const About = () => {
   return (
     <div className="w-full bg-white py-16 px-4">
-      <h1 className="relative text-center text-3xl font-semibold my-7">
+      <h1 className="relative text-center text-3xl font-bold my-7">
         ABOUT US
       </h1>
       <div className=" max-w-full  mx-auto grid gap-6 md:grid-cols-2">
         <div className="flex flex-col justify-center">
-          <p className="text-xl text-[#00df9a] whitespace-normal text-justify font-bold  ">
+          <p className="text-xl text-teal-600 whitespace-normal text-justify font-bold  ">
             The only Robotics Club of SIT under the patronage of E-yantra cell
             of IIT Bombay.
           </p>
@@ -23,7 +23,7 @@ const About = () => {
             {/* <p className="text-2xl text-[#00df9a] font-bold">Location: </p> */}
             <div className="flex  ">
               {/* <SlLocationPin className="mt-6 mr-1" size={30} /> */}
-              <p className="py-2 text-base text-justify font-bold">
+              <p className="py-2 text-teal-800 text-justify font-bold">
                 CORSIT is the robotics club of SIT, working in the field of
                 robotics to bring together like-minded individuals to share
                 experience and have fun building robots. The club was
@@ -67,7 +67,7 @@ const About = () => {
             Shivaswaroop P
           </h2>
           <div className="text-center font-medium">
-            <p className=" text-center  text-justifypy-2 border-b mx-8 mt-8">
+            <p className=" text-center  text-justify py-2 border-b mx-8 mt-8">
               Procurement Specialist at ZF Group{" "}
             </p>
           </div>
