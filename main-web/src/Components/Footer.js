@@ -13,10 +13,10 @@ import { ExternalLink } from "react-external-link";
 
 const Footer = () => {
   return (
-    <div className="bg-blue-500 max-w-full mx-auto py-16 px-8 grid lg:grid-cols-3 gap-8 text-white">
+    <div className="bg-teal-200 max-w-full mx-auto py-16 px-8 grid lg:grid-cols-3 gap-8 text-teal-800">
       <div>
-        <h1 className="w-full text-3xl font-bold text-black">CORSIT</h1>
-        <p className="py-4 text-justify">
+        <h1 className="w-full text-4xl font-bold text-teal-950">CORSIT</h1>
+        <p className="py-4 font-bold text-justify">
           Connect with us on various Social Media Handles
         </p>
         <div className="flex justify-between md:w-[75%] my-6">
@@ -39,7 +39,7 @@ const Footer = () => {
       </div>
       <div className="lg:col-span-2 font-bold flex justify-around mt-6">
         <div>
-          <h6 className="font-medium text-black">EVENTS</h6>
+          <h6 className="font-bold text-1xl text-teal-950">EVENTS</h6>
           <ul>
             <li className="py-2 text-sm">RoboExpo</li>
             <li className="py-2 text-sm">Paid WorkShop</li>
@@ -48,7 +48,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h6 className="ml-8 font-medium text-black">NEED HELP ?</h6>
+          <h6 className="ml-8 font-bold text-1xl text-teal-950">NEED HELP ?</h6>
 
           <ul>
             <div className="flex justify-center ">

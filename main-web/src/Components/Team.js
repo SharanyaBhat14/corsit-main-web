@@ -106,7 +106,7 @@ const people = [
   },
   {
     name: "YASHASWINI",
-    image: "../img/Yashaswini K_1.jpg",
+    image: "./img/YashaswiniK_1.jpg",
     role: "Third Year",
   },
   {
@@ -126,7 +126,7 @@ const people = [
   },
   {
     name: "SHARANYA BHAT",
-    image: "./img/Sharanya Bhat.jpg",
+    image: "./img/SharanyaBhat.jpg",
     role: "Second Year",
   },
   {
@@ -186,7 +186,7 @@ const people = [
   },
   {
     name: "Vaishali Choudhary ",
-    image: "./img/B Vaishali Choudhary.jpg",
+    image: "./img/B Vaishali Choudhary .jpg",
     role: "Second Year",
   },
   {
@@ -196,12 +196,12 @@ const people = [
   },
   {
     name: "Mayank Pandey ",
-    image: "./img/Mayank Pandey.jpg",
+    image: "./img/Mayank Pandey .jpg",
     role: "Second Year",
   },
   {
     name: "UJJAWAL SINGH ",
-    image: "./img/UJJAWAL SINGH.png",
+    image: "./img/UJJAWAL-SINGH.jpeg",
     role: "Second Year",
   },
   {
@@ -226,7 +226,7 @@ const people = [
   },
   {
     name: "Om",
-    image: "./img/_Om.jpg",
+    image: "./img/_Om .jpg",
     role: "First Year",
   },
   {
