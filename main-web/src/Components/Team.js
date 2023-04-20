@@ -1,4 +1,13 @@
 import React from "react";
+import namrata from "./images1/aa/PXL_20220312_103354403.PORTRAIT.jpg";
+import jatin from "./images1/aa/JATIN SHARMA (1).jpg";
+import yashaswini from "./images1/aa/YashaswiniK_1.jpg";
+import sharanya from "./images1/aa/SharanyaBhat.jpg";
+import suraj from "./images1/aa/Suraj Aribenchi.jpg";
+import aadarsh from "./images1/aa/Aadarsh Shriniwas.jpg";
+import ujjwal from "./images1/aa/UJJAWAL(jpeg).jpg";
+import ketakl from "./images1/aa/_Ketaki.jpg";
+import ashutosh from "./images1/aa/Ashutosh Malviya.jpg";
 
 const people = [
   {
@@ -106,7 +115,7 @@ const people = [
   },
   {
     name: "YASHASWINI",
-    image: "./img/YashaswiniK_1.jpg",
+    image: yashaswini,
     role: "Third Year",
   },
   {
@@ -126,12 +135,12 @@ const people = [
   },
   {
     name: "SHARANYA BHAT",
-    image: "./img/SharanyaBhat.jpg",
+    image: sharanya,
     role: "Second Year",
   },
   {
     name: "ASHUTOSH MALVIYA",
-    image: "./img/Ashutosh Malviya.jpg",
+    image: ashutosh,
     role: "Second Year",
   },
   {
@@ -156,7 +165,7 @@ const people = [
   },
   {
     name: "NAMRATA BHARADWAJ",
-    image: "./img/Namrata Bharadwaj.jpg",
+    image: namrata,
     role: "Second Year",
   },
   {
@@ -166,12 +175,12 @@ const people = [
   },
   {
     name: "JATIN SHARMA",
-    image: "./img/JATIN SHARMA (1).jpg",
+    image: jatin,
     role: "Second Year",
   },
   {
     name: "SURAJ ARIBENCHI",
-    image: "./img/Suraj Aribenchi.jpg",
+    image: suraj,
     role: "Second Year",
   },
   {
@@ -181,7 +190,7 @@ const people = [
   },
   {
     name: "AADARSH SHRINIWAS",
-    image: "./img/Aadarsh Shriniwas.jpg",
+    image: aadarsh,
     role: "Second Year",
   },
   {
@@ -201,7 +210,7 @@ const people = [
   },
   {
     name: "UJJAWAL SINGH ",
-    image: "./img/UJJAWAL-SINGH.jpeg",
+    image: ujjwal,
     role: "Second Year",
   },
   {
@@ -220,8 +229,8 @@ const people = [
     role: "First Year",
   },
   {
-    name: "_Ketaki Jojane ISE",
-    image: "./img/_Ketaki Jojane ISE.jpg",
+    name: "_Ketaki Jojane",
+    image: ketakl,
     role: "First Year",
   },
   {
@@ -255,7 +264,17 @@ const people = [
     role: "First Year",
   },
   {
-    name: "YATIN BHATIA",
+    name: "Yatin Bhatia",
+    image: "./img/YATIN BHATIA.jpg",
+    role: "First Year",
+  },
+  {
+    name: "Guru Srisha",
+    image: "./img/Guru Srisha.jpg",
+    role: "First Year",
+  },
+  {
+    name: "Ananya C R",
     image: "./img/YATIN BHATIA.jpg",
     role: "First Year",
   },
