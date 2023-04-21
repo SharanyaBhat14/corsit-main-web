@@ -8,6 +8,7 @@ import aadarsh from "./images1/aa/Aadarsh Shriniwas.jpg";
 import ujjwal from "./images1/aa/UJJAWAL(jpeg).jpg";
 import ketakl from "./images1/aa/_Ketaki.jpg";
 import ashutosh from "./images1/aa/Ashutosh Malviya.jpg";
+import ananya from "./images1/aa/Ananya.jpg";
 
 const people = [
   {
@@ -275,7 +276,7 @@ const people = [
   },
   {
     name: "Ananya C R",
-    image: "./img/YATIN BHATIA.jpg",
+    image: ananya,
     role: "First Year",
   },
 ];
@@ -291,7 +292,7 @@ const Team = () => {
           <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
             <img
               key={i}
-              className="w-70 h-56 rounded-xl mx-auto mt-[-3rem] bg-white"
+              className="aspect-square obje w-70 h-56 rounded-xl mx-auto mt-[-3rem] bg-white"
               src={person.image}
               alt="/"
             />

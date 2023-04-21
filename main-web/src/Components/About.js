@@ -6,10 +6,8 @@ import Triple from "../img/team1c.jpg";
 
 const About = () => {
   return (
-    <div className="w-full bg-white py-16 px-4">
-      <h1 className="relative text-center text-3xl font-bold my-7">
-        ABOUT US
-      </h1>
+    <div className="w-full bg-white pt-24 pb-16 px-4">
+      <h1 className="relative text-center text-3xl font-bold my-7">ABOUT US</h1>
       <div className=" max-w-full  mx-auto grid gap-6 md:grid-cols-2">
         <div className="flex flex-col justify-center">
           <p className="text-xl text-teal-600 whitespace-normal text-justify font-bold  ">

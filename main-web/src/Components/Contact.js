@@ -6,7 +6,7 @@ import { FiSmartphone } from "react-icons/fi";
 
 const Contact = () => {
   return (
-    <div className="w-full bg-white py-16 px-4">
+    <div className="w-full bg-white pt-36 pb-16 px-7">
       <div className=" max-w-[1240px] mx-auto grid md:grid-cols-2">
         <iframe
           title="map"

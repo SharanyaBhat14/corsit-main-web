@@ -5,7 +5,11 @@ import walle from "../img/walle.jpeg";
 const Home = () => {
   return (
     <div className="w-[100%] h-[100%] relative text-white">
-      <img className="w-full h-auto object-cover" alt="HerpImg" src={walle} />
+      <img
+        className="w-full h-auto object-cover -z-10"
+        alt="HerpImg"
+        src={walle}
+      />
       <div className="absolute top-40 left-[50%] w-[100%] -translate-x-[50%] -translate-y-[10%] mx-auto flex flex-col ">
         <p className=" font-bold p-2 text-3xl">Learn with us</p>
         <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
