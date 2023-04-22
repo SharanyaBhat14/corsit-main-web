@@ -84,7 +84,7 @@ const people = [
   },
   {
     name: "Kundan Kumar",
-    role: "Alumni UPSC Civil Services",
+    role: "Alumni, UPSC Civil Services",
     email: "kundan.bvm@gmail.com",
     ima: kundan,
     git: "kundank123",
@@ -214,11 +214,10 @@ export default function Alumni() {
       <div className="pt-4 mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
         <div className="max-w-2xl">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Meet our leadership
+            Meet our Alumni
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Libero fames augue nisl porttitor nisi, quis. Id ac elit odio vitae
-            elementum enim vitae ullamcorper suspendisse.
+            "Continuing the Legacy: Corsit Alumni Making their Mark!"
           </p>
         </div>
         <ul

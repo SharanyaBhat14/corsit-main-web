@@ -20,38 +20,42 @@ const Project = () => {
       <div className="max-w-[1240px]  my-14 mx-auto grid md:grid-cols-3 gap-8">
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
-            className="w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
+            className="  w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
             src={lfr}
             alt="/"
           />
           <h2 className="text-2xl font-bold text-center py-8">LFR</h2>
           <div className="text-center font-medium">
             <p className=" text-justify py-2 border-b mx-8 mt-8">
-              The Line Follower Robot is a basic robot that follows a specific
-              path indicated by a line having some particular width.{" "}
+              A Line Follower Robot is a fundamental type of robot that is
+              programmed to follow a designated path marked by a line with a
+              specific width, utilizing sensors and algorithms for accurate
+              tracking and navigation.{" "}
             </p>
           </div>
         </div>
 
         <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
           <img
-            className="w-64 rounded-xl mx-auto mt-[-3rem] bg-transparent"
+            className="  w-64 rounded-xl mx-auto mt-[-3rem] bg-transparent"
             src={home}
             alt="/"
           />
           <h2 className="text-2xl font-bold text-center py-8">
-            Home-automation
+            Home-Automation
           </h2>
           <div className="text-center font-medium">
             <p className=" text-justify  text-justifypy-2 border-b mx-8 mt-8">
-              A home automation system will monitor and control home attributes
-              such as lighting, climate, entertainment systems, and appliances.{" "}
+              A home automation system is designed to monitor and control
+              various attributes of a home, including lighting, climate,
+              entertainment systems, and appliances, through the use of
+              technology and automation for enhanced convenience and efficiency.{" "}
             </p>
           </div>
         </div>
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
-            className="w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
+            className="  w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
             src={obstacle}
             alt="/"
           />
@@ -61,7 +65,9 @@ const Project = () => {
           <div className="text-center font-medium">
             <p className="   text-justify py-2 border-b mx-8 mt-8">
               An Obstacle Avoiding Robot is a type of autonomous mobile robot
-              that avoids collision with unexpected obstacles.{" "}
+              that is equipped with sensors and algorithms enabling it to
+              navigate its environment while actively avoiding collisions with
+              unexpected obstacles.{" "}
             </p>
           </div>
         </div>
@@ -70,7 +76,7 @@ const Project = () => {
       <div className="max-w-[1240px] my-14 mx-auto grid md:grid-cols-3 gap-8">
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
-            className="w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
+            className="  w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
             src={soccer}
             alt="/"
           />
@@ -79,32 +85,34 @@ const Project = () => {
           </h2>
           <div className="text-center font-medium">
             <p className="  text-justify py-2 border-b mx-8 mt-8">
-              Robot Soccer BOT is a bot that compete on an arena specially
-              designed for robotic soccer match.{" "}
+              A Robot Soccer BOT is a specialized robot designed to compete in
+              an arena specifically tailored for robotic soccer matches,
+              showcasing their abilities in the field of robotic sports.{" "}
             </p>
           </div>
         </div>
 
         <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
           <img
-            className="w-70 rounded-xl mx-auto mt-[-3rem] bg-transparent"
+            className="  w-70 rounded-xl mx-auto mt-[-3rem] bg-transparent"
             src={Augmented}
             alt="/"
           />
           <h2 className="text-2xl font-bold text-center py-8">
-            Augmented reality
+            Augmented Reality
           </h2>
           <div className="text-center font-medium">
             <p className=" text-justify py-2 border-b mx-8 mt-8">
-              Augmented reality is an enhanced version of the real physical
-              world that is achieved through the use of digital visual elements,
-              sound, or other sensory stimuli delivered via technology.{" "}
+              Augmented reality refers to an enhanced depiction of the physical
+              world that combines digital visual elements, sounds, or other
+              sensory stimuli, delivered through technology to provide an
+              enriched and interactive experience.{" "}
             </p>
           </div>
         </div>
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
-            className="w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
+            className="  w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
             src={gesture}
             alt="/"
           />
@@ -113,8 +121,10 @@ const Project = () => {
           </h2>
           <div className="text-center font-medium">
             <p className="   text-justify py-2 border-b mx-8 mt-8">
-              A Gesture Controlled robot is a robot which can be controlled by
-              your hand gestures.{" "}
+              A gesture-controlled robot is a type of robot that can be
+              controlled by hand gestures, allowing for intuitive and hands-free
+              operation without the need for physical buttons or external
+              devices.{" "}
             </p>
           </div>
         </div>
@@ -123,22 +133,23 @@ const Project = () => {
       <div className="max-w-[1240px] my-14 mx-auto grid md:grid-cols-3 gap-8">
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
-            className="w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
+            className="  w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
             src={bluetooth}
             alt="/"
           />
           <h2 className="text-2xl font-bold text-center py-8">Bluetooth Bot</h2>
           <div className="text-center font-medium">
             <p className=" text-justify py-2 border-b mx-8 mt-8">
-              Bluetooth controlled Robot is controlled by using Android mobile
-              phone.{" "}
+              A Bluetooth-controlled robot is a type of robot that is operated
+              by an Android mobile phone, utilizing wireless Bluetooth
+              communication for remote control and command input.{" "}
             </p>
           </div>
         </div>
 
         <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
           <img
-            className="w-60 rounded-xl mx-auto mt-[-3rem] bg-transparent"
+            className="  w-60 rounded-xl mx-auto mt-[-3rem] bg-transparent"
             src={selfBalance}
             alt="/"
           />
@@ -147,22 +158,24 @@ const Project = () => {
           </h2>
           <div className="text-center font-medium">
             <p className=" text-justify py-2 border-b mx-8 mt-8">
-              Self-balancing robot is a two-wheeled robot which balances itself
-              and prevents from falling.{" "}
+              A self-balancing robot is a type of two-wheeled robot that is
+              designed to maintain its balance and prevent from falling by
+              employing mechanisms or algorithms that enable it to adjust and
+              stabilize its position in real-time.{" "}
             </p>
           </div>
         </div>
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
-            className="w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
+            className="  w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
             src={robowar}
             alt="/"
           />
           <h2 className="text-2xl font-bold text-center py-8">Robo War</h2>
           <div className="text-center font-medium">
             <p className=" text-justify py-2 border-b mx-8 mt-8">
-              A Robowar robot is a large, armed, walking war machine to show
-              dominance over a battlefield.{" "}
+              A Robowar robot is a formidable, bipedal war machine equipped with
+              weapons, designed to exhibit dominance on the battlefield.{" "}
             </p>
           </div>
         </div>
@@ -171,7 +184,7 @@ const Project = () => {
       <div className="max-w-[1240px] my-16 mx-auto grid md:grid-cols-3 gap-8">
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
-            className="w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
+            className="  w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
             src={wall}
             alt="/"
           />
@@ -180,26 +193,27 @@ const Project = () => {
           </h2>
           <div className="text-center font-medium">
             <p className=" text-justify py-2 border-b mx-8 mt-8">
-              A wall following robot is designed to move along a wall without
-              hitting it.{" "}
+              The purpose of a wall-following robot is to navigate alongside a
+              wall without making contact with it, using a design specifically
+              tailored for this task.{" "}
             </p>
           </div>
         </div>
 
         <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
           <img
-            className="w-60 rounded-xl mx-auto mt-[-3rem] bg-transparent"
+            className="  w-60 rounded-xl mx-auto mt-[-3rem] bg-transparent"
             src={rfid}
             alt="/"
           />
           <h2 className="text-2xl font-bold text-center py-8">
-            RFID attendance System
+            RFID Attendance System
           </h2>
           <div className="text-center font-medium">
             <p className=" text-justify py-2 border-b mx-8 mt-8">
-              RFID attendance system provides wireless identification of
-              stakeholders when they fall in the radiofrequency range of the
-              RFID attendance reader.{" "}
+              The RFID attendance system utilizes wireless identification to
+              track and record the presence of stakeholders as they come within
+              the radiofrequency range of the RFID attendance reader.{" "}
             </p>
           </div>
         </div>

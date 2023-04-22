@@ -22,15 +22,16 @@ const About = () => {
             <div className="flex  ">
               {/* <SlLocationPin className="mt-6 mr-1" size={30} /> */}
               <p className="py-2 text-teal-800 text-justify font-bold">
-                CORSIT is the robotics club of SIT, working in the field of
-                robotics to bring together like-minded individuals to share
-                experience and have fun building robots. The club was
-                established in year 2006 and since then it has organized various
-                national level workshops as well as participated in various
-                national level events. Our aim is to empower students with the
-                possibility of getting their hands dirty and learning about
-                robotics by practically doing it. It officially controls all the
-                robotics activities carried out by SIT.
+                CORSIT, the robotics club of SIT, is a community of like-minded
+                individuals who share a passion for robotics and come together
+                to learn, build, and have fun with robots. Established in 2006,
+                CORSIT has organized national-level workshops and actively
+                participated in various national-level events. The club's
+                mission is to empower students by providing hands-on
+                opportunities to learn about robotics through practical
+                experience. As the official body overseeing all robotics
+                activities at SIT, CORSIT aims to foster a culture of creativity
+                and innovation in the field of robotics.
               </p>
             </div>
           </div>

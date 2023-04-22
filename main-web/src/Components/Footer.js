@@ -13,11 +13,12 @@ import { ExternalLink } from "react-external-link";
 
 const Footer = () => {
   return (
-    <div className="bg-teal-200 max-w-full mx-auto py-16 px-8 grid lg:grid-cols-3 gap-8 text-teal-800">
+    <div className="bg-teal-200 max-w-full mx-auto py-12 px-8 grid lg:grid-cols-3 gap-8 text-teal-800">
       <div>
         <h1 className="w-full text-4xl font-bold text-teal-950">CORSIT</h1>
         <p className="py-4 font-bold text-justify">
-          Connect with us on various Social Media Handles
+          "Get Social with us! Follow, Like and Connect on our Social Media
+          Platforms"
         </p>
         <div className="flex justify-between md:w-[75%] my-6">
           <ExternalLink href="https://www.facebook.com/thecorsit/">
