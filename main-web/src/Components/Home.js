@@ -12,24 +12,24 @@ const Home = () => {
       />
       <div className="absolute top-40 left-[50%] max-w-screen-sm -translate-x-10 -translate-y-[10%] mx-auto flex flex-col ">
         <p className=" font-bold ml-9 p-2 text-3xl">Learn with us</p>
-        <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 md:ml-11">
+        <h1 className="md:text-7xl sm:text-5xl text-4xl font-bold md:py-6 md:ml-11">
           Grow with us.
         </h1>
-        <div className="flex px-7 mx-40 mt-20 items-center">
-          <p className="md:text-5xl sm:text-4xl text-xl font-bold py-4">
+        <div className=" px-7 mx-20 mt-24 items-center">
+          <p className="md:text-6xl sm:text-4xl text-xl font-bold py-4">
             Learn
           </p>
           <Typed
             className="md:text-5xl sm:text-4xl text-xl font-bold whitespace-nowrap md:pl-4 pl-2"
             strings={[
               "Robotics",
-              "Web Development",
-              "Machine Learning",
-              "App Development",
-              // "Arduino Programming",
-              "Augmented Reality",
+              "Web Dev",
+              "ML",
+              "App Dev",
+              "Arduino",
+              "ARs",
               "Photoshop",
-              "Video Editing",
+              //"Video Editing",
             ]}
             typeSpeed={120}
             backSpeed={140}
