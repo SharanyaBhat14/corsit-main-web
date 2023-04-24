@@ -83,7 +83,7 @@ const Navbar = () => {
         >
           <li onClick={handleNav} className=" p-4 border-b border-gray-600">
             <Link
-              className="text-[#222] text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-[#01959a] hover:text-white hover:rounded hover:ease-in-out  "
+              className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out  "
               to="/"
             >
               Home
@@ -91,7 +91,7 @@ const Navbar = () => {
           </li>
           <li onClick={handleNav} className=" p-4 border-b border-gray-600">
             <Link
-              className="text-[#222] text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-[#01959a] hover:text-white hover:rounded hover:ease-in-out"
+              className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
               to="/about"
             >
               About
@@ -99,7 +99,7 @@ const Navbar = () => {
           </li>
           <li onClick={handleNav} className=" p-4 border-b border-gray-600">
             <Link
-              className="text-[#222] text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-[#01959a] hover:text-white hover:rounded hover:ease-in-out"
+              className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
               to="/team"
             >
               Our team
@@ -107,7 +107,7 @@ const Navbar = () => {
           </li>
           <li onClick={handleNav} className=" p-4 border-b border-gray-600">
             <Link
-              className="text-[#222] text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-[#01959a] hover:text-white hover:rounded hover:ease-in-out"
+              className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
               to="/alumni"
             >
               Alumni
@@ -115,7 +115,7 @@ const Navbar = () => {
           </li>
           <li onClick={handleNav} className=" p-4 border-b border-gray-600">
             <Link
-              className="text-[#222] text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-[#01959a] hover:text-white hover:rounded hover:ease-in-out"
+              className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
               to="/project"
             >
               Bots & Projects
@@ -123,7 +123,7 @@ const Navbar = () => {
           </li>
           <li onClick={handleNav} className=" p-4 border-b border-gray-600">
             <Link
-              className="text-[#222] text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-[#01959a] hover:text-white hover:rounded hover:ease-in-out"
+              className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
               to="/contact"
             >
               Contact
