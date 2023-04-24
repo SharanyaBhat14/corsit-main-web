@@ -18,7 +18,7 @@ const Navbar = () => {
         <ul className="hidden md:grid grid-cols-[repeat(6,auto)] gap-2 list-none items-center ">
           <li>
             <Link
-              className="text-[#222] text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-[#01959a] hover:text-white hover:rounded hover:ease-in-out"
+              className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
               to="/"
             >
               Home
@@ -26,7 +26,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              className="text-[#222] text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-[#01959a] hover:text-white hover:rounded hover:ease-in-out"
+              className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
               to="/about"
             >
               About
@@ -34,7 +34,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              className="text-[#222] text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-[#01959a] hover:text-white hover:rounded hover:ease-in-out"
+              className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
               to="/team"
             >
               Our team
@@ -42,7 +42,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              className="text-[#222] text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-[#01959a] hover:text-white hover:rounded hover:ease-in-out"
+              className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
               to="/alumni"
             >
               Alumni
@@ -50,7 +50,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              className="text-[#222] text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-[#01959a] hover:text-white hover:rounded hover:ease-in-out"
+              className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
               to="/project"
             >
               Bots & Projects
@@ -58,7 +58,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              className="text-[#222] text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-[#01959a] hover:text-white hover:rounded hover:ease-in-out"
+              className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
               to="/contact"
             >
               Contact

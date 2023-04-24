@@ -20,7 +20,7 @@ const Contact = () => {
 
         <div className="mx-10 sm:flex flex-col justify-center ">
           <div className="flex flex-col justify-center">
-            <p className="text-2xl text-teal-600 font-bold">Location: </p>
+            <p className="text-2xl text-sky-600 font-bold">Location: </p>
             <div className="flex  ">
               <SlLocationPin className="mt-6 mr-1" size={30} />
               <p className="py-2 text-xl font-semibold">
@@ -34,7 +34,7 @@ const Contact = () => {
           </div>
 
           <div className="flex flex-col justify-center my-4">
-            <p className="text-2xl text-teal-600 font-bold">Email: </p>
+            <p className="text-2xl text-sky-600 font-bold">Email: </p>
             <div className="flex  ">
               <MdAlternateEmail className="mt-3 mr-1" size={30} />
               <p className="font-semibold text-xl mt-2">corsit@sit.ac.in</p>
@@ -42,7 +42,7 @@ const Contact = () => {
           </div>
 
           <div className="flex flex-col justify-center my-8">
-            <p className="text-2xl text-teal-600 font-bold">Call: </p>
+            <p className="text-2xl text-sky-600 font-bold">Call: </p>
             <div className="flex  ">
               <FiSmartphone className="mt-3 mr-1" size={30} />
               <p className="font-semibold text-xl mt-2">6201928647</p>
