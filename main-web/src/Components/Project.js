@@ -25,8 +25,8 @@ const Project = () => {
             alt="/"
           />
           <h2 className="text-2xl font-bold text-center py-8">LFR</h2>
-          <div className="text-center font-medium">
-            <p className=" text-justify py-2 border-b mx-8 mt-8">
+          <div className="font-medium">
+            <p className=" text-ellipse py-2 border-b mx-8 mt-8">
               A Line Follower Robot is a fundamental type of robot that is
               programmed to follow a designated path marked by a line with a
               specific width, utilizing sensors and algorithms for accurate
@@ -44,8 +44,8 @@ const Project = () => {
           <h2 className="text-2xl font-bold text-center py-8">
             Home-Automation
           </h2>
-          <div className="text-center font-medium">
-            <p className=" text-justify  text-justifypy-2 border-b mx-8 mt-8">
+          <div className="font-medium">
+            <p className=" text-ellipse  text-ellipsepy-2 border-b mx-8 mt-8">
               A home automation system is designed to monitor and control
               various attributes of a home, including lighting, climate,
               entertainment systems, and appliances, through the use of
@@ -62,8 +62,8 @@ const Project = () => {
           <h2 className="text-2xl font-bold text-center py-8">
             Obstacle Avoiding Bot
           </h2>
-          <div className="text-center font-medium">
-            <p className="   text-justify py-2 border-b mx-8 mt-8">
+          <div className="font-medium">
+            <p className="   text-ellipse py-2 border-b mx-8 mt-8">
               An Obstacle Avoiding Robot is a type of autonomous mobile robot
               that is equipped with sensors and algorithms enabling it to
               navigate its environment while actively avoiding collisions with
@@ -83,8 +83,8 @@ const Project = () => {
           <h2 className="text-2xl font-bold text-center py-8">
             Robo Soccer Bot
           </h2>
-          <div className="text-center font-medium">
-            <p className="  text-justify py-2 border-b mx-8 mt-8">
+          <div className="font-medium">
+            <p className="  text-ellipse py-2 border-b mx-8 mt-8">
               A Robot Soccer BOT is a specialized robot designed to compete in
               an arena specifically tailored for robotic soccer matches,
               showcasing their abilities in the field of robotic sports.{" "}
@@ -101,8 +101,8 @@ const Project = () => {
           <h2 className="text-2xl font-bold text-center py-8">
             Augmented Reality
           </h2>
-          <div className="text-center font-medium">
-            <p className=" text-justify py-2 border-b mx-8 mt-8">
+          <div className="font-medium">
+            <p className=" text-ellipse py-2 border-b mx-8 mt-8">
               Augmented reality refers to an enhanced depiction of the physical
               world that combines digital visual elements, sounds, or other
               sensory stimuli, delivered through technology to provide an
@@ -119,8 +119,8 @@ const Project = () => {
           <h2 className="text-2xl font-bold text-center py-8">
             Gesture Controlled Bot
           </h2>
-          <div className="text-center font-medium">
-            <p className="   text-justify py-2 border-b mx-8 mt-8">
+          <div className="font-medium">
+            <p className="   text-ellipse py-2 border-b mx-8 mt-8">
               A gesture-controlled robot is a type of robot that can be
               controlled by hand gestures, allowing for intuitive and hands-free
               operation without the need for physical buttons or external
@@ -138,8 +138,8 @@ const Project = () => {
             alt="/"
           />
           <h2 className="text-2xl font-bold text-center py-8">Bluetooth Bot</h2>
-          <div className="text-center font-medium">
-            <p className=" text-justify py-2 border-b mx-8 mt-8">
+          <div className="font-medium">
+            <p className=" text-ellipse py-2 border-b mx-8 mt-8">
               A Bluetooth-controlled robot is a type of robot that is operated
               by an Android mobile phone, utilizing wireless Bluetooth
               communication for remote control and command input.{" "}
@@ -156,8 +156,8 @@ const Project = () => {
           <h2 className="text-2xl font-bold text-center py-8">
             Self-Balancing Bot
           </h2>
-          <div className="text-center font-medium">
-            <p className=" text-justify py-2 border-b mx-8 mt-8">
+          <div className="font-medium">
+            <p className=" text-ellipse py-2 border-b mx-8 mt-8">
               A self-balancing robot is a type of two-wheeled robot that is
               designed to maintain its balance and prevent from falling by
               employing mechanisms or algorithms that enable it to adjust and
@@ -172,8 +172,8 @@ const Project = () => {
             alt="/"
           />
           <h2 className="text-2xl font-bold text-center py-8">Robo War</h2>
-          <div className="text-center font-medium">
-            <p className=" text-justify py-2 border-b mx-8 mt-8">
+          <div className="font-medium">
+            <p className=" text-ellipse py-2 border-b mx-8 mt-8">
               A Robowar robot is a formidable, bipedal war machine equipped with
               weapons, designed to exhibit dominance on the battlefield.{" "}
             </p>
@@ -191,8 +191,8 @@ const Project = () => {
           <h2 className="text-2xl font-bold text-center py-8">
             Wall Following Bot
           </h2>
-          <div className="text-center font-medium">
-            <p className=" text-justify py-2 border-b mx-8 mt-8">
+          <div className="font-medium">
+            <p className=" text-ellipse py-2 border-b mx-8 mt-8">
               The purpose of a wall-following robot is to navigate alongside a
               wall without making contact with it, using a design specifically
               tailored for this task.{" "}
@@ -209,8 +209,8 @@ const Project = () => {
           <h2 className="text-2xl font-bold text-center py-8">
             RFID Attendance System
           </h2>
-          <div className="text-center font-medium">
-            <p className=" text-justify py-2 border-b mx-8 mt-8">
+          <div className=" font-medium">
+            <p className=" text-ellipsis py-2 border-b mx-8 mt-8">
               The RFID attendance system utilizes wireless identification to
               track and record the presence of stakeholders as they come within
               the radiofrequency range of the RFID attendance reader.{" "}

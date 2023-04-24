@@ -13,10 +13,10 @@ import { ExternalLink } from "react-external-link";
 
 const Footer = () => {
   return (
-    <div className="bg-teal-200 max-w-full mx-auto py-12 px-8 grid lg:grid-cols-3 gap-8 text-teal-800">
+    <div className="bg-teal-200 max-w-full mx-auto py-6 px-8 grid lg:grid-cols-3 gap-8 text-teal-800">
       <div>
         <h1 className="w-full text-4xl font-bold text-teal-950">CORSIT</h1>
-        <p className="py-4 font-bold text-justify">
+        <p className="py-3 font-bold text-justify">
           "Get Social with us! Follow, Like and Connect on our Social Media
           Platforms"
         </p>
@@ -25,7 +25,7 @@ const Footer = () => {
             <FaFacebookSquare size={30} />
           </ExternalLink>
 
-          <ExternalLink href="https://www.linkedin.com/company/corsit/mycompany/">
+          <ExternalLink href="https://www.instagram.com/corsit.sit/">
             <FaInstagram size={30} />
           </ExternalLink>
 
@@ -43,8 +43,8 @@ const Footer = () => {
           <h6 className="font-bold text-1xl text-teal-950">EVENTS</h6>
           <ul>
             <li className="py-2 text-sm">RoboExpo</li>
-            <li className="py-2 text-sm">Paid WorkShop</li>
-            <li className="py-2 text-sm">Free Workshop</li>
+            <li className="py-2 text-sm">WorkShop</li>
+            <li className="py-2 text-sm">Hackathon</li>
             <li className="py-2 text-sm">Robocor</li>
           </ul>
         </div>
@@ -55,7 +55,7 @@ const Footer = () => {
             <div className="flex justify-center ">
               <SlLocationPin className="mt-6 mr-1" size={30} />
               <li className="py-2 text-sm">
-                Corsit Lab
+                E-Yantra Robotics Lab
                 <p>
                   Siddaganga Institute of Technology
                   <br /> Tumkur, Karnataka
@@ -67,7 +67,7 @@ const Footer = () => {
               <li className=" py-1 text-sm">
                 <a
                   className=" "
-                  href="https://api.whatsapp.com/send?phone=916205809011"
+                  href="https://api.whatsapp.com/send?phone=916201928647"
                   target="_blank"
                   rel="noreferrer"
                 >

@@ -17,14 +17,14 @@ const Contact = () => {
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
-        {/* <img className="w-[500px] mx-auto my-4" src={Laptop} alt="/" /> */}
+
         <div className="mx-10 sm:flex flex-col justify-center ">
           <div className="flex flex-col justify-center">
             <p className="text-2xl text-teal-600 font-bold">Location: </p>
             <div className="flex  ">
               <SlLocationPin className="mt-6 mr-1" size={30} />
               <p className="py-2 text-xl font-semibold">
-                Corsit Lab
+                E-Yantra Robotics Lab
                 <p>
                   Siddaganga Institute of Technology
                   <br /> Tumkur, Karnataka

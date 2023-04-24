@@ -1,6 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
-import walle from "../img/walle.jpeg";
+import walle from "../img/wall-e.jpg";
 
 const Home = () => {
   return (

@@ -6,7 +6,7 @@ import Triple from "../img/team1c.jpg";
 
 const About = () => {
   return (
-    <div className="w-full bg-white pt-24 pb-16 px-4">
+    <div className="w-full bg-white pt-32 pb-1 px-4">
       <h1 className="relative text-center text-3xl font-bold my-7">ABOUT US</h1>
       <div className=" max-w-full  mx-auto grid gap-6 md:grid-cols-2">
         <div className="flex flex-col justify-center">
@@ -42,7 +42,7 @@ const About = () => {
       </h1>
 
       <div className="max-w-[1240px]  my-14 mx-auto grid md:grid-cols-3 gap-8">
-        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+        <div className="w-full bg-gray-100 shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className="w-24 h-24 mx-auto mt-[-3rem] bg-white rounded-full"
             src={Single}
@@ -56,7 +56,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
+        <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className="w-24 h-24 mx-auto mt-[-3rem] bg-transparent rounded-full"
             src={Double}
@@ -66,12 +66,12 @@ const About = () => {
             Shivaswaroop P
           </h2>
           <div className="text-center font-medium">
-            <p className=" text-center  text-justify py-2 border-b mx-8 mt-8">
+            <p className=" text-center py-2 border-b mx-8 mt-8">
               Procurement Specialist at ZF Group{" "}
             </p>
           </div>
         </div>
-        <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
+        <div className="w-full bg-gray-100 shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className=" mx-auto mt-[-3rem] bg-white rounded-full h-24 w-24"
             src={Triple}

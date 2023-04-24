@@ -22,8 +22,61 @@ import abhinav from "./images1/abhinav.jpeg";
 import pankaj from "./images1/pankaj.jpeg";
 import shaksham from "./images1/shaksham.jpeg";
 import manojna from "./images1/manojna.jpeg";
+import vivk from "./images1/vivk.jpeg";
+import prince from "./images1/prince.jpeg";
+import anurag from "./images1/anurag.jpeg";
+import nitish from "./images1/nitish.jpeg";
+import nalini from "./images1/nalini.jpeg";
 
 const people = [
+  {
+    name: "Vivek Kumar",
+    role: "Full-Stack devloper @ Airbus",
+    email: "",
+    ima: vivk,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/vivek-kumar-877348105/",
+  },
+  {
+    name: "Prince Kumar",
+    role: "Senior Software Engineer @ Juniper Networks",
+    email: "",
+    ima: prince,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/prince-kumar-45a19a10a/",
+  },
+  {
+    name: "Anurag Shahwal",
+    role: "Senior Manager at Morgan Stanley",
+    email: "",
+    ima: anurag,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/anurag-shahwal/",
+  },
+  {
+    name: "Nitish Kumar",
+    role: "MDM Developer(Reltio)",
+    email: "",
+    ima: nitish,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/nitish-kumar-49741a141/",
+  },
+  {
+    name: "Nalini Singh",
+    role: "Software Engineer 3 at Walmart",
+    email: "",
+    ima: nalini,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/nalini-singh-82a97412b/",
+  },
+  {
+    name: "Rajeev Ranjan",
+    role: "Software Engineer at Nvidia",
+    email: "Ranjan.rajeev1609@gmail.com",
+    ima: rajeev,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/rajeev-ranjan-426b241b0/",
+  },
   {
     name: "Vivek Mohla",
     role: "Escalation engineer Microsoft ",
@@ -66,14 +119,6 @@ const people = [
     linkedin: "https://www.linkedin.com/in/rohan-jadhav-717385186",
   },
 
-  {
-    name: "Rajeev Ranjan",
-    role: "Software Engineer at Nvidia",
-    email: "Ranjan.rajeev1609@gmail.com",
-    ima: rajeev,
-    git: "",
-    linkedin: "https://www.linkedin.com/in/rajeev-ranjan-426b241b0/",
-  },
   {
     name: "Pradhan V",
     role: "Technical specialist ",
