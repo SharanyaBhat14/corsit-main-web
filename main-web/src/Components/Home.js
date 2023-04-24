@@ -27,7 +27,7 @@ const Home = () => {
               "ML",
               "App Dev",
               "Arduino",
-              "ARs",
+              "AR",
               "Photoshop",
               //"Video Editing",
             ]}
