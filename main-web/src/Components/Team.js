@@ -66,7 +66,7 @@ const people = [
   },
   {
     name: "UTKARSH SAHAY",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/utkarsh-sahay-84ab5a222",
     image: "./img/Utkarsh Sahay.jpg",
     role: "Senior Member",
   },
@@ -120,7 +120,7 @@ const people = [
   },
   {
     name: "KUNAL",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/kunal-chanda-104a63226",
     image: "./img/Kunal.jpg",
     role: "Third Year",
   },
@@ -132,7 +132,7 @@ const people = [
   },
   {
     name: "OJAS SANGRA",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/ojas-sangra-942351220",
     image: "./img/IMG_20230210_200320.jpg",
     role: "Third Year",
   },
@@ -156,7 +156,7 @@ const people = [
   },
   {
     name: "SHREE HARSHIKA",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/karanam-sree-harshika-76a446219/",
     image: "./img/HarshikaID (1).jpeg",
     role: "Third Year",
   },
@@ -174,7 +174,7 @@ const people = [
   },
   {
     name: "KUMAR HARSH",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/kumar-harsh-39bb2b249",
     image: "./img/Kumar Harsh.jpg",
     role: "Second Year",
   },
@@ -240,7 +240,7 @@ const people = [
   },
   {
     name: "ADITI JOSHI",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/aditi-joshi-5a260b229",
     image: "./img/Aditi Joshi ECE.jpg",
     role: "Second Year",
   },
@@ -264,7 +264,7 @@ const people = [
   },
   {
     name: "ARYAN",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/aryan-kapoor-86535724b",
     image: "./img/Aryan.jpg",
     role: "Second Year",
   },

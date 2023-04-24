@@ -4,29 +4,29 @@ import walle from "../img/wall-e.jpg";
 
 const Home = () => {
   return (
-    <div className="w-[100%] h-[100%] relative text-white">
+    <div className="w-screen h-[100%] relative text-white">
       <img
-        className="w-full h-auto object-cover -z-10"
+        className="w-full h-screen object-fill -z-10"
         alt="HerpImg"
         src={walle}
       />
-      <div className="absolute top-40 left-[50%] w-[100%] -translate-x-[50%] -translate-y-[10%] mx-auto flex flex-col ">
-        <p className=" font-bold p-2 text-3xl">Learn with us</p>
-        <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
+      <div className="absolute top-40 left-[50%] max-w-screen-sm -translate-x-10 -translate-y-[10%] mx-auto flex flex-col ">
+        <p className=" font-bold ml-9 p-2 text-3xl">Learn with us</p>
+        <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 md:ml-11">
           Grow with us.
         </h1>
-        <div className="flex justify-center items-center">
+        <div className="flex px-7 mx-40 mt-20 items-center">
           <p className="md:text-5xl sm:text-4xl text-xl font-bold py-4">
             Learn
           </p>
           <Typed
-            className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2"
+            className="md:text-5xl sm:text-4xl text-xl font-bold whitespace-nowrap md:pl-4 pl-2"
             strings={[
               "Robotics",
               "Web Development",
               "Machine Learning",
               "App Development",
-              "Arduino Programming",
+              // "Arduino Programming",
               "Augmented Reality",
               "Photoshop",
               "Video Editing",
