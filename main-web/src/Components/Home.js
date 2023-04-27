@@ -6,30 +6,31 @@ const Home = () => {
   return (
     <div className="w-screen h-[100%] relative text-white">
       <img
-        className="w-full h-screen object-fill -z-10"
+        className="w-full h-screen object-fill z-[-99]"
         alt="HerpImg"
         src={walle}
       />
-      <div className="absolute top-40 left-[50%] max-w-screen-sm -translate-x-10 -translate-y-[10%] mx-auto flex flex-col ">
-        <p className=" font-bold ml-9 p-2 text-3xl">Learn with us</p>
-        <h1 className="md:text-7xl sm:text-5xl text-4xl font-bold md:py-6 md:ml-11">
-          Grow with us.
+      <div className=" absolute top-32 left-[55%] max-w-screen-sm -translate-x-10 -translate-y-[10%] mx-auto flex flex-col text-center sm:ml-28 sm:top-36">
+        <p className=" font-bold ml-1 p-2 text-2xl">Learn with us</p>
+        <h1 className="md:text-5xl sm:text-4xl text-3xl py-4 font-bold  md:ml-11">
+          Grow with us
         </h1>
-        <div className=" px-7 mx-20 mt-24 items-center">
-          <p className="md:text-6xl sm:text-4xl text-xl font-bold py-4">
+      </div>
+      <div className=" absolute top-44 left-[29%] sm:left-[40%] max-w-screen-sm -translate-x-10 -translate-y-[10%] mx-auto flex flex-col text-center sm:ml-44 sm:pt-14">
+        <div className=" px-4 ml-[4.3rem] mt-20 sm:mt-14 flex items-center">
+          <p className="md:text-5xl sm:text-4xl text-lg font-bold pt-0 ">
             Learn
           </p>
           <Typed
-            className="md:text-5xl sm:text-4xl text-xl font-bold whitespace-nowrap md:pl-4 pl-2"
+            className="md:text-5xl sm:text-4xl text-xl font-bold whitespace-nowrap md:pl-4 pl-1 "
             strings={[
               "Robotics",
-              "Web Dev",
-              "ML",
-              "App Dev",
+              "Web Development",
+              "Machine Learning",
+              "App Development",
               "Arduino",
-              "AR",
               "Photoshop",
-              //"Video Editing",
+              "Video Editing",
             ]}
             typeSpeed={120}
             backSpeed={140}

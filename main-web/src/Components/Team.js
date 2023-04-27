@@ -355,7 +355,7 @@ const Team = () => {
               {person.name}
             </h2>
             <ExternalLink
-              className="flex justify-center"
+              className="flex text-blue-700 justify-center"
               href={person.linkedin}
             >
               <FaLinkedinIn size={30} />

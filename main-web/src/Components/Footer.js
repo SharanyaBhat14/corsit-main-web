@@ -13,55 +13,62 @@ import { ExternalLink } from "react-external-link";
 
 const Footer = () => {
   return (
-    <div className="bg-sky-100 max-w-full mx-auto py-6 px-8 grid lg:grid-cols-3 gap-8 text-sky-900">
-      <div>
-        <h1 className="w-full text-4xl font-bold text-sky-950">CORSIT</h1>
-        <p className="py-3 font-bold text-justify">
-          "Get Social with us! Follow, Like and Connect on our Social Media
-          Platforms"
-        </p>
-        <div className="flex justify-between md:w-[75%] my-6">
-          <ExternalLink href="https://www.facebook.com/thecorsit/">
+    <div className="py-5 px-8 sm:py-5 sm:px-24 bg-sky-100">
+      <div className="flex flex-wrap  items-center text-start justify-between   ">
+        <div>
+          <h1 className=" text-4xl font-bold text-sky-950">CORSIT</h1>
+          <p className="font-bold text-justify">
+            "Get Social with us! Follow, Like and Connect on our Social Media
+            Platforms"
+          </p>
+        </div>
+        <div className="flex justify-between">
+          <ExternalLink
+            className="mt-4 ml-2 mb-0 mr-0 sm:ml-4"
+            href="https://www.facebook.com/thecorsit/"
+          >
             <FaFacebookSquare size={30} />
           </ExternalLink>
 
-          <ExternalLink href="https://www.instagram.com/corsit.sit/">
+          <ExternalLink
+            className="mt-4 ml-4 mb-0 mr-0 sm:ml-4"
+            href="https://www.instagram.com/corsit.sit/"
+          >
             <FaInstagram size={30} />
           </ExternalLink>
 
-          <ExternalLink href="https://www.linkedin.com/company/corsit/mycompany/">
+          <ExternalLink
+            className="mt-4 ml-6 mb-0 mr-0 sm:ml-4"
+            href="https://www.linkedin.com/company/corsit/mycompany/"
+          >
             <FaLinkedinIn size={30} />
           </ExternalLink>
 
-          <ExternalLink href="https://www.youtube.com/channel/UCcm-ttunddHrEGWUdYkUd2w">
+          <ExternalLink
+            className="mt-4 ml-6 mb-0 mr-0 sm:ml-4 "
+            href="https://www.youtube.com/channel/UCcm-ttunddHrEGWUdYkUd2w"
+          >
             <FaYoutube size={30} />
           </ExternalLink>
         </div>
       </div>
-      <div className="lg:col-span-2 font-bold flex justify-around mt-6">
-        <div>
-          <h6 className="font-bold text-1xl text-teal-950">EVENTS</h6>
+
+      <div className="  pt-8 text-start flex justify-between flex-wrap font-bold">
+        <div className="  w-1/2 sm:flex sm:flex-col">
+          <h6 className="pt-0 pl-0 pb-3 pr-0 font-bold text-1xl text-teal-950">
+            EVENTS
+          </h6>
           <ul>
-            <li className="py-2 text-sm">RoboExpo</li>
-            <li className="py-2 text-sm">WorkShop</li>
-            <li className="py-2 text-sm">Hackathon</li>
-            <li className="py-2 text-sm">Robocor</li>
+            <li className="pb-2 text-sm">RoboExpo</li>
+            <li className="pb-2 text-sm">WorkShop</li>
+            <li className="pb-2 text-sm">Hackathon</li>
+            <li className="pb-2 text-sm">Robocor</li>
           </ul>
         </div>
-        <div>
-          <h6 className="ml-8 font-bold text-1xl text-teal-950">NEED HELP ?</h6>
+        <div className=" w-1/2">
+          <h6 className="font-bold text-1xl text-teal-950">NEED HELP ?</h6>
 
           <ul>
-            <div className="flex justify-center ">
-              <SlLocationPin className="mt-6 mr-1" size={30} />
-              <li className="py-2 text-sm">
-                E-Yantra Robotics Lab
-                <p>
-                  Siddaganga Institute of Technology
-                  <br /> Tumkur, Karnataka
-                </p>
-              </li>
-            </div>
             <div className="flex my-1">
               <FaWhatsapp className="mr-1" size={30} />
               <li className=" py-1 text-sm">
