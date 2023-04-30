@@ -9,7 +9,7 @@ import img8 from "./images1/Events/img8.jpeg";
 
 const Event = () => {
   return (
-    <div className="destination my-16 mx-8 text-center md:my-16 md:mx-24">
+    <div className="destination my-16 mx-8 text-center md:my-16 md:mx-24 text-black">
       <h1 className="font-bold text-5xl">Our Events</h1>
       <p className="mt-1">
         Our club organize several events throughout the year.

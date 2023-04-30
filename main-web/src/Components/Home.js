@@ -1,5 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
+import Events from "./Event";
 import walle from "../img/wall-e.jpg";
 
 const Home = () => {
@@ -24,7 +25,7 @@ const Home = () => {
           <Typed
             className="md:text-5xl sm:text-4xl text-xl font-bold whitespace-nowrap md:pl-4 pl-1 "
             strings={[
-              "Robotics",
+              "Robotic Automation",
               "Web Development",
               "Machine Learning",
               "App Development",
@@ -38,35 +39,7 @@ const Home = () => {
           />
         </div>
       </div>
-      {/* <div className="bg-blue-600  w-full h-screen mx-auto text-center flex flex-col justify-center">
-        <p className="text-[black] font-bold p-2 text-3xl">Learn with us</p>
-        <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6">
-          Grow with us.
-        </h1>
-        <div className="flex justify-center items-center">
-          <p className="md:text-5xl sm:text-4xl text-xl font-bold py-4">
-            Learn
-          </p>
-          <Typed
-            className="md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2"
-            strings={[
-              "Robotics",
-              "Web Development",
-              "Machine Learning",
-              "App Development",
-              "Arduino Programming",
-              "Augmented Reality",
-              "Photoshop",
-              "Video Editing",
-            ]}
-            typeSpeed={120}
-            backSpeed={140}
-            loop
-          />
-        </div>
-        
-      </div>
-     */}
+      <Events />
     </div>
   );
 };

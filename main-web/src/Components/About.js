@@ -11,8 +11,9 @@ const About = () => {
       <div className=" max-w-full py-32  mx-auto grid gap-6 md:grid-cols-2">
         <div className="flex flex-col justify-center">
           <p className="text-xl text-sky-600 whitespace-normal text-justify font-bold  ">
-            The only Robotics Club of SIT under the patronage of E-yantra cell
-            of IIT Bombay.
+            Under the auspices of IIT Bombay's E-yantra cell, SIT's Robotics
+            Club stands alone as the only club of its type. The club is
+            dedicated to promoting robotics and related activities.
           </p>
         </div>
 
@@ -87,7 +88,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Events />
+      {/* <Events /> */}
     </div>
   );
 };
