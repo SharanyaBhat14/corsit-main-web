@@ -2,10 +2,10 @@ import img1 from "./images1/Events/img1.jpg";
 import img2 from "./images1/Events/img2.jpg";
 import img3 from "./images1/Events/img3.jpg";
 import img4 from "./images1/Events/img4.jpeg";
-import img5 from "./images1/Events/img5.jpg";
-import img6 from "./images1/Events/img6.jpg";
-import img7 from "./images1/Events/img7.jpg";
-import img8 from "./images1/Events/img8.jpeg";
+import img5 from "./images1/Events/img5.png";
+import img6 from "./images1/Events/img6.png";
+import img7 from "./images1/Events/img7.png";
+import img8 from "./images1/Events/img8.png";
 
 const Event = () => {
   return (
