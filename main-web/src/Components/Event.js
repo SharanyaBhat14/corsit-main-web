@@ -1,11 +1,11 @@
-import img1 from "./images1/Events/img1.jpg";
-import img2 from "./images1/Events/img2.jpg";
-import img3 from "./images1/Events/img3.jpg";
-import img4 from "./images1/Events/img4.JPG";
-import img5 from "./images1/Events/img5.png";
-import img6 from "./images1/Events/img6.png";
-import img7 from "./images1/Events/img7.png";
-import img8 from "./images1/Events/img8.png";
+import img1 from "../../public/img/Events/img1.jpg";
+import img2 from "../../public/img/Events/img2.jpg";
+import img3 from "../../public/img/Events/img3.jpg";
+import img4 from "../../public/img/Events/img4.JPG";
+import img5 from "../../public/img/Events/img5.png";
+import img6 from "../../public/img/Events/img6.png";
+import img7 from "../../public/img/Events/img7.png";
+import img8 from "../../public/img/Events/img8.png";
 
 const Event = () => {
   return (
