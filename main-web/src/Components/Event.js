@@ -32,12 +32,12 @@ const Event = () => {
         </div>
         <div className="image w-full my-7 mx-0 relative md:w-1/2 flex justify-between ">
           <img
-            className="h-64 w-1/2 md:h-80 rounded-md shadow-2xl "
+            className="h-60 w-1/2 md:h-80 rounded-md shadow-2xl "
             src={img1}
             alt="one"
           />
           <img
-            className="h-64 w-1/2 sm:h-80 rounded-md shadow-xl absolute -top-4 -right-2 "
+            className="h-60 w-1/2 sm:h-80 rounded-md shadow-xl absolute -top-4 -right-2 "
             src={img2}
             alt="two"
           />
@@ -62,12 +62,12 @@ const Event = () => {
         </div>
         <div className="image w-full my-7 mx-0 relative md:w-1/2 flex justify-between ">
           <img
-            className="h-64 w-1/2 md:h-80 rounded-md shadow-2xl "
+            className="h-60 w-1/2 md:h-80 rounded-md shadow-2xl "
             src={img3}
             alt="one"
           />
           <img
-            className="h-64 w-1/2 sm:h-80 rounded-md shadow-xl absolute -top-4 -right-2 "
+            className="h-60 w-1/2 sm:h-80 rounded-md shadow-xl absolute -top-4 -right-2 "
             src={img4}
             alt="two"
           />
@@ -90,12 +90,12 @@ const Event = () => {
         </div>
         <div className="image w-full my-7 mx-0 relative md:w-1/2 flex justify-between ">
           <img
-            className="h-64 w-1/2 md:h-80 rounded-md shadow-2xl "
+            className="h-60 w-1/2 md:h-80 rounded-md shadow-2xl "
             src={img5}
             alt="one"
           />
           <img
-            className="h-64 w-1/2 sm:h-80 rounded-md shadow-xl absolute -top-4 -right-2 "
+            className="h-60 w-1/2 sm:h-80 rounded-md shadow-xl absolute -top-4 -right-2 "
             src={img6}
             alt="two"
           />
@@ -119,12 +119,12 @@ const Event = () => {
         </div>
         <div className="image w-full my-7 mx-0 relative md:w-1/2 flex justify-between ">
           <img
-            className="h-64 w-1/2 md:h-80 rounded-md shadow-2xl "
+            className="h-60 w-1/2 md:h-80 rounded-md shadow-2xl "
             src={img7}
             alt="one"
           />
           <img
-            className="h-64 w-1/2 sm:h-80 rounded-md shadow-xl absolute -top-4 -right-2 "
+            className="h-60 w-1/2 sm:h-80 rounded-md shadow-xl absolute -top-4 -right-2 "
             src={img8}
             alt="two"
           />

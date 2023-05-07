@@ -25,7 +25,7 @@ const Home = () => {
           <Typed
             className="md:text-5xl sm:text-4xl text-xl font-bold whitespace-nowrap md:pl-4 pl-1 "
             strings={[
-              "Robotic Automation",
+              "Robotics",
               "Web Development",
               "Machine Learning",
               "App Development",
