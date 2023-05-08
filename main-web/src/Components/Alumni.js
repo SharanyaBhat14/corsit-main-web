@@ -8,7 +8,7 @@ import rajeev from "./images1/Rajeev Ranjan.jpg";
 import rohan from "./images1/RohanJadhav.jpg";
 import shivu from "./images1/Shivu P.jpg";
 import amaan from "./images1/amanaa.jpeg";
-import anushant from "./images1/anushant.jpeg";
+import anushant from "./images1/anushant.jpg";
 import keshav from "./images1/keshav.jpg";
 import kundan from "./images1/kundan - K k.jpeg";
 import meghraj from "./images1/meghraj.jpeg";
@@ -127,14 +127,6 @@ const people = [
     git: "",
     linkedin: "https://www.linkedin.com/in/pradhan4v",
   },
-  {
-    name: "Kundan Kumar",
-    role: "Alumni, UPSC Civil Services",
-    email: "kundan.bvm@gmail.com",
-    ima: kundan,
-    git: "kundank123",
-    linkedin: "https://www.linkedin.com/in/kundan-kumar-78a6a0145",
-  },
 
   {
     name: "KESHAV KUMAR MISHRA",
@@ -162,13 +154,14 @@ const people = [
     linkedin: "https://www.linkedin.com/in/abhinav-kumar-804473196/",
   },
   {
-    name: "Asra Sadik",
-    role: "Alumni",
-    email: "asramdsadik@gmail.com",
-    ima: asra,
-    git: "",
-    linkedin: "https://www.linkedin.com/in/asrasadik/",
+    name: "Kundan Kumar",
+    role: "Alumni, UPSC Civil Services",
+    email: "kundan.bvm@gmail.com",
+    ima: kundan,
+    git: "kundank123",
+    linkedin: "https://www.linkedin.com/in/kundan-kumar-78a6a0145",
   },
+
   {
     name: "Shaksham Sinha",
     role: "SDE 1 @ yellow.ai",
@@ -202,6 +195,14 @@ const people = [
     linkedin: "",
   },
   {
+    name: "Asra Sadik",
+    role: "Alumni",
+    email: "asramdsadik@gmail.com",
+    ima: asra,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/asrasadik/",
+  },
+  {
     name: "Shivaneeth P",
     role: "Associate software developer",
     email: "shivu61133@gmail.com",
@@ -227,6 +228,14 @@ const people = [
     linkedin: "https://www.linkedin.com/in/srishti-gupta-02b6b71b3",
   },
   {
+    name: "Megharaj Goudar",
+    role: "Junior Manager (JSW Steel)",
+    email: "megharajgoudar1999@gmail.com",
+    ima: meghraj,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/megharaj-goudar-8b5232193",
+  },
+  {
     name: "Ansa S Mathew",
     role: " DC Analyst in Deloitte USI ",
     email: "ansasmathew@gmail.com",
@@ -241,15 +250,6 @@ const people = [
     ima: tanmay,
     git: "",
     linkedin: "https://www.linkedin.com/in/tanmaytan",
-  },
-
-  {
-    name: "Megharaj Goudar",
-    role: "Junior Manager (JSW Steel)",
-    email: "megharajgoudar1999@gmail.com",
-    ima: meghraj,
-    git: "",
-    linkedin: "https://www.linkedin.com/in/megharaj-goudar-8b5232193",
   },
 ];
 

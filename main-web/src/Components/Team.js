@@ -11,6 +11,7 @@ import ujjwal from "./images1/aa/UJJAWAL(jpeg).jpg";
 import ketakl from "./images1/aa/_Ketaki.jpg";
 import ashutosh from "./images1/aa/Ashutosh Malviya.jpg";
 import ananya from "./images1/aa/Ananya.jpg";
+import varsha from "./images1/aa/varsha.jpg";
 
 const people = [
   {
@@ -205,7 +206,7 @@ const people = [
   {
     name: "SIDDHANT RAJ",
     linkedin: "https://www.linkedin.com/company/corsit/",
-    image: "./img/Siddhant Raj.jpeg",
+    image: "./img/SIDDHANT RAJ.jpg",
     role: "Second Year",
   },
   {
@@ -313,7 +314,7 @@ const people = [
   {
     name: "VARSHA",
     linkedin: "https://www.linkedin.com/in/varsha-t-k-415b25264",
-    image: "./img/varsha.png",
+    image: varsha,
     role: "First Year",
   },
   {
