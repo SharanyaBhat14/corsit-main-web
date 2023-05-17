@@ -2,13 +2,15 @@ import React from "react";
 import Typed from "react-typed";
 import Events from "./Event";
 import walle from "../img/wall-e.jpg";
+import w from "../img/w.jpg";
 
 const Home = () => {
   return (
     <div className="w-screen h-[100%] relative text-white">
+      <img className="w-full object-fill z-[-99]" alt="HeroImg" src={w} />
       <img
         className="w-full h-screen object-fill z-[-99]"
-        alt="HerpImg"
+        alt="HeroImg"
         src={walle}
       />
       <div className=" absolute top-32 left-[55%] max-w-screen-sm -translate-x-10 -translate-y-[10%] mx-auto flex flex-col text-center sm:ml-28 sm:top-36">

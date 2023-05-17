@@ -27,8 +27,20 @@ import prince from "./images1/prince.jpeg";
 import anurag from "./images1/anurag.jpeg";
 import nitish from "./images1/nitish.jpeg";
 import nalini from "./images1/nalini.jpeg";
+import krishnakant from "./images1/raj.jpeg";
+import ranjeet from "./images1/Ranjeet.jpg";
+import amit from "./images1/amit.jpeg";
 
 const people = [
+  {
+    name: "Ranjeet Kumar Chaurasiya",
+    role: "Informatica SME at Kyndryl India",
+    email: "",
+    ima: ranjeet,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/ranjeetchaurasiya",
+  },
+
   {
     name: "Vivek Kumar",
     role: "Full-Stack devloper @ Airbus",
@@ -152,6 +164,22 @@ const people = [
     ima: abhinav,
     git: "",
     linkedin: "https://www.linkedin.com/in/abhinav-kumar-804473196/",
+  },
+  {
+    name: "Amit Anand",
+    role: "System Engineer at Mahindra Group",
+    email: "",
+    ima: amit,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/amitanand509/",
+  },
+  {
+    name: "Krishnkant Jaiswal",
+    role: "SDE-1 At Pick Your Trail",
+    email: "",
+    ima: krishnakant,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/krishnkant-jaiswal-04578214a/",
   },
   {
     name: "Kundan Kumar",
