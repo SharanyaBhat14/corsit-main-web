@@ -6,7 +6,7 @@ import w from "../img/w.jpg";
 
 const Home = () => {
   return (
-    <div className="w-screen h-[100%] relative text-white">
+    <div className=" h-[100%] relative text-white">
       {/* <img className="w-full object-fill z-[-99]" alt="HeroImg" src={w} /> */}
       <img
         className="w-full h-screen object-fill z-[-99]"

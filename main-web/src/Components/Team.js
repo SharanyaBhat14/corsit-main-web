@@ -101,12 +101,12 @@ const people = [
     image: "./img/Ashish.jpg",
     role: "Third Year",
   },
-  {
-    name: "BINDUSHREE",
-    linkedin: "https://www.linkedin.com/in/bindushree-b-540257227",
-    image: "./img/Bindushree B, CSE.jpg",
-    role: "Third Year",
-  },
+  // {
+  //   name: "BINDUSHREE",
+  //   linkedin: "https://www.linkedin.com/in/bindushree-b-540257227",
+  //   image: "./img/Bindushree B, CSE.jpg",
+  //   role: "Third Year",
+  // },
   {
     name: "SAMEER KUMAR",
     linkedin: "https://www.linkedin.com/in/sameer-shetty-478481217",
@@ -155,12 +155,12 @@ const people = [
     image: "./img/1si20ec039_jeevitha.jpg",
     role: "Third Year",
   },
-  {
-    name: "SHREE HARSHIKA",
-    linkedin: "https://www.linkedin.com/in/karanam-sree-harshika-76a446219/",
-    image: "./img/HarshikaID (1).jpeg",
-    role: "Third Year",
-  },
+  // {
+  //   name: "SHREE HARSHIKA",
+  //   linkedin: "https://www.linkedin.com/in/karanam-sree-harshika-76a446219/",
+  //   image: "./img/HarshikaID (1).jpeg",
+  //   role: "Third Year",
+  // },
   {
     name: "SHARANYA BHAT",
     linkedin: "https://www.linkedin.com/in/sharanya-bhat-b2070a239",
