@@ -30,6 +30,7 @@ import nalini from "./images1/nalini.jpeg";
 import krishnakant from "./images1/raj.jpeg";
 import ranjeet from "./images1/Ranjeet.jpg";
 import amit from "./images1/amit.jpeg";
+import ankit from "./images1/Ankit Gourav.jpg";
 
 const people = [
   {
@@ -39,6 +40,14 @@ const people = [
     ima: ranjeet,
     git: "",
     linkedin: "https://www.linkedin.com/in/ranjeetchaurasiya",
+  },
+  {
+    name: "Ankit Gourav",
+    role: "Deep Learning Engineer at Blaize",
+    email: "",
+    ima: ankit,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/ankit-gourav-b611b7192/",
   },
 
   {

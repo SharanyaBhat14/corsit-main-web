@@ -1,5 +1,5 @@
 import React from "react";
-import Events from "./Event";
+import Mentor from "./Mentor";
 import Single from "../img/team1b.jpg";
 import Double from "../img/team1a.jpg";
 import Triple from "../img/team1c.jpg";
@@ -38,6 +38,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Mentor />
       <h1 className="relative text-center text-3xl font-semibold my-7">
         FOUNDERS
       </h1>
@@ -88,7 +89,6 @@ const About = () => {
           </div>
         </div>
       </div>
-      {/* <Events /> */}
     </div>
   );
 };

@@ -36,7 +36,7 @@ const Navbar = () => {
           <li>
             <ExternalLink
               className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
-              href="https://hackofest.cyclic.app/"
+              href="https://hackfest.cyclic.app/"
             >
               HackFest
             </ExternalLink>
@@ -117,7 +117,7 @@ const Navbar = () => {
           <li onClick={handleNav} className=" p-4 border-b border-gray-600">
             <ExternalLink
               className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out  "
-              href="https://hackofest.cyclic.app/"
+              href="https://hackfest.cyclic.app/"
             >
               HackFest
             </ExternalLink>
