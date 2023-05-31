@@ -17,7 +17,7 @@ const Event = () => {
 
       <div className="flex flex-col-reverse mt-10  first-des md:flex-row md:items-center md:justify-between md:mt-[4.5rem] ">
         <div className=" w-full md:w-[45%] text-lg text-start">
-          <h2 className="font-bold pb-4">RoboExpo</h2>
+          <h2 className="font-semibold pb-4">RoboExpo</h2>
           <p>
             ROBOEXPO is an annual event organized by the Robotics club of SIT
             CORSIT. The primary objective is to introduce the club and its
@@ -48,7 +48,7 @@ const Event = () => {
 
       <div className="flex flex-col-reverse mt-10  first-des md:flex-row-reverse md:items-center md:justify-between md:mt-[4.5rem] ">
         <div className=" w-full md:w-[45%] text-lg text-start">
-          <h2 className="font-bold pb-4">Workshop</h2>
+          <h2 className="font-semibold pb-4">Workshop</h2>
           <p>
             CORSIT offers free workshops on IoT, Arduino, cloud, and more,
             providing students with hands-on experience in building basic bots
@@ -78,7 +78,7 @@ const Event = () => {
 
       <div className="flex flex-col-reverse mt-10  first-des md:flex-row md:items-center md:justify-between md:mt-[4.5rem] ">
         <div className=" w-full md:w-[45%] text-lg text-start">
-          <h2 className="font-bold pb-4">Hackathon</h2>
+          <h2 className="font-semibold pb-4">Hackathon</h2>
           <p>
             CORSIT, the Robotics club of SIT, conducts an annual 12-hour
             hackathon since 2017, where students collaborate to find innovative
@@ -106,7 +106,7 @@ const Event = () => {
 
       <div className="flex flex-col-reverse mt-10  first-des md:flex-row-reverse md:items-center md:justify-between md:mt-[4.5rem] ">
         <div className=" w-full md:w-[45%] text-lg text-start">
-          <h2 className="font-bold pb-4">Robocor</h2>
+          <h2 className="font-semibold pb-4">Robocor</h2>
           <p>
             Robocor, a nationally renowned Robotics Competition, which is one of
             the biggest events in Karnataka. It provides a platform for
