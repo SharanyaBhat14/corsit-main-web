@@ -27,6 +27,15 @@ const Navbar = () => {
           <li>
             <Link
               className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
+              to="https://robocor-23.cyclic.app"
+              target="_blank"
+            >
+              ROBOCOR'23
+            </Link>
+          </li>
+          <li>
+            <Link
+              className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
               to="/about"
             >
               About
