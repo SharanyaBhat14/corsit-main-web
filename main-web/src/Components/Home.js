@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Typed from "react-typed";
 import Events from "./Event";
 import walle from "../img/wall-e.jpg";
-import classNames from "classnames";
 
 const Home = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 577); // Initial check for mobile view
