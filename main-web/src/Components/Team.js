@@ -16,109 +16,32 @@ import varsha from "./images1/aa/varsha.jpg";
 const people = [
   {
     id: 1,
-    name: "VISHAL MISHRA",
-    linkedin: "https://www.linkedin.com/in/vishal-kumar-575724206",
-    image: "./img/Vishal.jpg",
+    name: "OJAS SANGRA",
+    linkedin: "https://www.linkedin.com/in/ojas-sangra-942351220",
+    image: "./img/IMG_20230210_200320.jpg",
     role: "Chairman",
   },
   {
     id: 2,
-    name: "SUDHAMSHU BHATTA S",
-    linkedin: "https://www.linkedin.com/in/sudhamshu-bhat",
-    image: "./img/Sudhamshu.jpg",
-    role: "Vice Chairman",
-  },
-  {
-    name: "HARSHITHA M",
-    linkedin: "https://www.linkedin.com/company/corsit/",
-    image: "./img/Harshitha.jpg",
-    role: "Treasurer",
-  },
-  {
-    name: "HRISHIKESH PRADHAN",
-    linkedin: "https://www.linkedin.com/company/corsit/",
-    image: "./img/Hrishikesh.jpg",
-    role: "Treasurer",
-  },
-  {
-    name: "AMAN GUPTA",
-    linkedin: "https://www.linkedin.com/in/aman-gupta-b420751b2/",
-    image: "./img/Aman.jpg",
-    role: "Web Dev Lead",
-  },
-  {
-    name: "ADITI DUBEY",
-    linkedin: "https://www.linkedin.com/in/aditi-dubey-0007",
-    image: "./img/Aditi.jpg",
-    role: "Digital Lead",
-  },
-  {
-    name: "KSHITIZ SINGH",
-    linkedin: "https://www.linkedin.com/company/corsit/",
-    image: "./img/Kshitiz Singh.jpg",
-    role: "Internal Dev Lead",
-  },
-
-  {
-    name: "ADITYA RAJ",
-    linkedin: "https://www.linkedin.com/company/corsit/",
-    image: "./img/ADITYA RAJ.jpg",
-    role: "Senior Member",
-  },
-  {
-    name: "UTKARSH SAHAY",
-    linkedin: "https://www.linkedin.com/in/utkarsh-sahay-84ab5a222",
-    image: "./img/Utkarsh Sahay.jpg",
-    role: "Senior Member",
-  },
-  {
-    name: "RAZEE SHRIVASTAV",
-    linkedin: "https://www.linkedin.com/in/razee-srivastav-90034b244",
-    image: "./img/Razee.jpg",
-    role: "Senior Member",
-  },
-  {
-    name: "HARSHKANT",
-    linkedin: "https://www.linkedin.com/company/corsit/",
-    image: "./img/HARSHKANT.jpeg",
-    role: "Senior Member",
-  },
-  {
-    name: "SHRUTI BHARADWAJ",
-    linkedin: "https://www.linkedin.com/in/shruti-bhardwaj-266344220",
-    image: "./img/Shruti.jpg",
-    role: "Senior Member",
-  },
-  {
-    name: "SUMANTH JAIN",
-    linkedin: "https://www.linkedin.com/in/sumanth-jain-v-b-9a3188218",
-    image: "./img/Sumanth Jain.jpg",
-    role: "Senior Member",
-  },
-  {
     name: "ASHISH MAHANTH",
     linkedin: "https://www.linkedin.com/in/ashish-mahanth-887b0721b",
     image: "./img/Ashish.jpg",
-    role: "Third Year",
-  },
-  // {
-  //   name: "BINDUSHREE",
-  //   linkedin: "https://www.linkedin.com/in/bindushree-b-540257227",
-  //   image: "./img/Bindushree B, CSE.jpg",
-  //   role: "Third Year",
-  // },
-  {
-    name: "SAMEER KUMAR",
-    linkedin: "https://www.linkedin.com/in/sameer-shetty-478481217",
-    image: "./img/Sameer.jpg",
-    role: "Third Year",
+    role: "Vice Chairman",
   },
   {
     name: "ADITYA DUBEY",
     linkedin: "https://www.linkedin.com/in/aditya-dubey-18927b152/",
     image: "./img/1SI20ET002.jpg",
-    role: "Third Year",
+    role: "Treasurer",
   },
+
+  {
+    name: "SAMEER KUMAR",
+    linkedin: "https://www.linkedin.com/in/sameer-shetty-478481217",
+    image: "./img/Sameer.jpg",
+    role: "Tech Lead",
+  },
+
   {
     name: "KUNAL",
     linkedin: "https://www.linkedin.com/in/kunal-chanda-104a63226",
@@ -131,12 +54,7 @@ const people = [
     image: "./img/Tannistha Nandy .jpg",
     role: "Third Year",
   },
-  {
-    name: "OJAS SANGRA",
-    linkedin: "https://www.linkedin.com/in/ojas-sangra-942351220",
-    image: "./img/IMG_20230210_200320.jpg",
-    role: "Third Year",
-  },
+
   {
     name: "YASHASWINI",
     linkedin: "https://www.linkedin.com/company/corsit/",
@@ -155,12 +73,12 @@ const people = [
     image: "./img/1si20ec039_jeevitha.jpg",
     role: "Third Year",
   },
-  // {
-  //   name: "SHREE HARSHIKA",
-  //   linkedin: "https://www.linkedin.com/in/karanam-sree-harshika-76a446219/",
-  //   image: "./img/HarshikaID (1).jpeg",
-  //   role: "Third Year",
-  // },
+  {
+    name: "UJJAWAL SINGH ",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    image: ujjwal,
+    role: "Treasurer",
+  },
   {
     name: "SHARANYA BHAT",
     linkedin: "https://www.linkedin.com/in/sharanya-bhat-b2070a239",
@@ -251,12 +169,7 @@ const people = [
     image: "./img/Mayank Pandey .jpg",
     role: "Second Year",
   },
-  {
-    name: "UJJAWAL SINGH ",
-    linkedin: "https://www.linkedin.com/company/corsit/",
-    image: ujjwal,
-    role: "Second Year",
-  },
+
   {
     name: "BADAL",
     linkedin: "https://www.linkedin.com/company/corsit/",
@@ -348,7 +261,7 @@ const Team = () => {
           <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
             <img
               key={i}
-              className="aspect-square obje w-70 h-56 rounded-xl mx-auto mt-[-3rem] bg-white"
+              className="aspect-square obje w-70 h-56 rounded-xl mx-auto mt-[-3rem] bg-white "
               src={person.image}
               alt="/"
             />
