@@ -8,7 +8,7 @@ import rajeev from "./images1/Rajeev Ranjan.jpg";
 import rohan from "./images1/RohanJadhav.jpg";
 import shivu from "./images1/Shivu P.jpg";
 import amaan from "./images1/amanaa.jpeg";
-import anushant from "./images1/anushant.jpeg";
+import anushant from "./images1/anushant.jpg";
 import keshav from "./images1/keshav.jpg";
 import kundan from "./images1/kundan - K k.jpeg";
 import meghraj from "./images1/meghraj.jpeg";
@@ -27,8 +27,29 @@ import prince from "./images1/prince.jpeg";
 import anurag from "./images1/anurag.jpeg";
 import nitish from "./images1/nitish.jpeg";
 import nalini from "./images1/nalini.jpeg";
+import krishnakant from "./images1/raj.jpeg";
+import ranjeet from "./images1/Ranjeet.jpg";
+import amit from "./images1/amit.jpeg";
+import ankit from "./images1/Ankit Gourav.jpg";
 
 const people = [
+  {
+    name: "Ranjeet Kumar Chaurasiya",
+    role: "Informatica SME at Kyndryl India",
+    email: "",
+    ima: ranjeet,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/ranjeetchaurasiya",
+  },
+  {
+    name: "Ankit Gourav",
+    role: "Deep Learning Engineer at Blaize",
+    email: "",
+    ima: ankit,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/ankit-gourav-b611b7192/",
+  },
+
   {
     name: "Vivek Kumar",
     role: "Full-Stack devloper @ Airbus",
@@ -127,14 +148,6 @@ const people = [
     git: "",
     linkedin: "https://www.linkedin.com/in/pradhan4v",
   },
-  {
-    name: "Kundan Kumar",
-    role: "Alumni, UPSC Civil Services",
-    email: "kundan.bvm@gmail.com",
-    ima: kundan,
-    git: "kundank123",
-    linkedin: "https://www.linkedin.com/in/kundan-kumar-78a6a0145",
-  },
 
   {
     name: "KESHAV KUMAR MISHRA",
@@ -162,13 +175,30 @@ const people = [
     linkedin: "https://www.linkedin.com/in/abhinav-kumar-804473196/",
   },
   {
-    name: "Asra Sadik",
-    role: "Alumni",
-    email: "asramdsadik@gmail.com",
-    ima: asra,
+    name: "Amit Anand",
+    role: "System Engineer at Mahindra Group",
+    email: "",
+    ima: amit,
     git: "",
-    linkedin: "https://www.linkedin.com/in/asrasadik/",
+    linkedin: "https://www.linkedin.com/in/amitanand509/",
   },
+  {
+    name: "Krishnkant Jaiswal",
+    role: "SDE-1 At Pick Your Trail",
+    email: "",
+    ima: krishnakant,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/krishnkant-jaiswal-04578214a/",
+  },
+  {
+    name: "Kundan Kumar",
+    role: "Alumni, UPSC Civil Services",
+    email: "kundan.bvm@gmail.com",
+    ima: kundan,
+    git: "kundank123",
+    linkedin: "https://www.linkedin.com/in/kundan-kumar-78a6a0145",
+  },
+
   {
     name: "Shaksham Sinha",
     role: "SDE 1 @ yellow.ai",
@@ -202,6 +232,14 @@ const people = [
     linkedin: "",
   },
   {
+    name: "Asra Sadik",
+    role: "Alumni",
+    email: "asramdsadik@gmail.com",
+    ima: asra,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/asrasadik/",
+  },
+  {
     name: "Shivaneeth P",
     role: "Associate software developer",
     email: "shivu61133@gmail.com",
@@ -227,6 +265,14 @@ const people = [
     linkedin: "https://www.linkedin.com/in/srishti-gupta-02b6b71b3",
   },
   {
+    name: "Megharaj Goudar",
+    role: "Junior Manager (JSW Steel)",
+    email: "megharajgoudar1999@gmail.com",
+    ima: meghraj,
+    git: "",
+    linkedin: "https://www.linkedin.com/in/megharaj-goudar-8b5232193",
+  },
+  {
     name: "Ansa S Mathew",
     role: " DC Analyst in Deloitte USI ",
     email: "ansasmathew@gmail.com",
@@ -241,15 +287,6 @@ const people = [
     ima: tanmay,
     git: "",
     linkedin: "https://www.linkedin.com/in/tanmaytan",
-  },
-
-  {
-    name: "Megharaj Goudar",
-    role: "Junior Manager (JSW Steel)",
-    email: "megharajgoudar1999@gmail.com",
-    ima: meghraj,
-    git: "",
-    linkedin: "https://www.linkedin.com/in/megharaj-goudar-8b5232193",
   },
 ];
 

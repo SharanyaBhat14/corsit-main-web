@@ -1,15 +1,15 @@
 import React from "react";
-import Augmented from "../img/augmented.jpg";
-import bluetooth from "../img/blue.jpg";
-import gesture from "../img/gesture.png";
-import lfr from "../img/LFR.jpg";
-import obstacle from "../img/obstacle.png";
-import rfid from "../img/RFID.png";
-import robowar from "../img/robowar.jpeg";
-import selfBalance from "../img/self.webp";
-import soccer from "../img/soccer.jpeg";
-import home from "../img/Home-automation.jpg";
-import wall from "../img/obs.jpg";
+// import Augmented from "./bots/augmented.jpg";
+// import bluetooth from "./bots/blue.jpg";
+// import gesture from "./bots/gesture.png";
+// import lfr from "./bots/LFR.jpg";
+// import obstacle from "./bots/obstacle.png";
+// import rfid from "./bots/RFID.png";
+// import robowar from "./bots/robowar.jpeg";
+// import selfBalance from "./bots/self.webp";
+// import soccer from "./bots/soccer.jpeg";
+// import home from "./bots/Home-automation.jpg";
+// import wall from "./bots/obs.jpg";
 
 const Project = () => {
   return (
@@ -21,7 +21,7 @@ const Project = () => {
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className="  w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
-            src={lfr}
+            src="./bots/LFR.jpg"
             alt="/"
           />
           <h2 className="text-2xl font-bold text-center py-8">LFR</h2>
@@ -38,7 +38,7 @@ const Project = () => {
         <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
           <img
             className="  w-64 rounded-xl mx-auto mt-[-3rem] bg-transparent"
-            src={home}
+            src="./bots/Home-automation.jpg"
             alt="/"
           />
           <h2 className="text-2xl font-bold text-center py-8">
@@ -56,7 +56,7 @@ const Project = () => {
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className="  w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
-            src={obstacle}
+            src="./bots/obstacle.png"
             alt="/"
           />
           <h2 className="text-2xl font-bold text-center py-8">
@@ -77,7 +77,7 @@ const Project = () => {
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className="  w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
-            src={soccer}
+            src="./bots/soccer.jpeg"
             alt="/"
           />
           <h2 className="text-2xl font-bold text-center py-8">
@@ -95,7 +95,7 @@ const Project = () => {
         <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
           <img
             className="  w-70 rounded-xl mx-auto mt-[-3rem] bg-transparent"
-            src={Augmented}
+            src="./bots/augmented.jpg"
             alt="/"
           />
           <h2 className="text-2xl font-bold text-center py-8">
@@ -113,7 +113,7 @@ const Project = () => {
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className="  w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
-            src={gesture}
+            src="./bots/gesture.png"
             alt="/"
           />
           <h2 className="text-2xl font-bold text-center py-8">
@@ -134,7 +134,7 @@ const Project = () => {
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className="  w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
-            src={bluetooth}
+            src="./bots/blue.jpg"
             alt="/"
           />
           <h2 className="text-2xl font-bold text-center py-8">Bluetooth Bot</h2>
@@ -150,7 +150,7 @@ const Project = () => {
         <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
           <img
             className="  w-60 rounded-xl mx-auto mt-[-3rem] bg-transparent"
-            src={selfBalance}
+            src="./bots/self.webp"
             alt="/"
           />
           <h2 className="text-2xl font-bold text-center py-8">
@@ -168,7 +168,7 @@ const Project = () => {
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className="  w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
-            src={robowar}
+            src="./bots/robowar.jpeg"
             alt="/"
           />
           <h2 className="text-2xl font-bold text-center py-8">Robo War</h2>
@@ -185,7 +185,7 @@ const Project = () => {
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className="  w-70 rounded-xl mx-auto mt-[-3rem] bg-white"
-            src={wall}
+            src="./bots/obs.jpg"
             alt="/"
           />
           <h2 className="text-2xl font-bold text-center py-8">
@@ -203,7 +203,7 @@ const Project = () => {
         <div className="w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300">
           <img
             className="  w-60 rounded-xl mx-auto mt-[-3rem] bg-transparent"
-            src={rfid}
+            src="./bots/RFID.png"
             alt="/"
           />
           <h2 className="text-2xl font-bold text-center py-8">

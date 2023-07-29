@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="flex flex-wrap  items-center text-start justify-between   ">
         <div>
           <h1 className=" text-4xl font-bold text-sky-950">CORSIT</h1>
-          <p className="font-bold text-justify">
+          <p className="font-semibold text-start">
             "Get Social with us! Follow, Like and Connect on our Social Media
             Platforms"
           </p>

@@ -1,11 +1,11 @@
-import img1 from "./images1/Events/img1.jpg";
-import img2 from "./images1/Events/img2.jpg";
-import img3 from "./images1/Events/img3.jpg";
-import img4 from "./images1/Events/img4.JPG";
-import img5 from "./images1/Events/img5.png";
-import img6 from "./images1/Events/img6.png";
-import img7 from "./images1/Events/img7.png";
-import img8 from "./images1/Events/img8.png";
+// import img1 from "../../img/Events/img1.jpg";
+// import img2 from "./img/Events/img2.jpg";
+// import img3 from "./img/Events/img3.jpg";
+// import img4 from "./img/Events/img4.JPG";
+// import img5 from "./img/Events/img5.png";
+// import img6 from "./img/Events/img6.png";
+// import img7 from "../img/Events/img7.png";
+// import img8 from "../img/Events/img8.png";
 
 const Event = () => {
   return (
@@ -17,7 +17,7 @@ const Event = () => {
 
       <div className="flex flex-col-reverse mt-10  first-des md:flex-row md:items-center md:justify-between md:mt-[4.5rem] ">
         <div className=" w-full md:w-[45%] text-lg text-start">
-          <h2 className="font-bold pb-4">RoboExpo</h2>
+          <h2 className="font-semibold pb-4">RoboExpo</h2>
           <p>
             ROBOEXPO is an annual event organized by the Robotics club of SIT
             CORSIT. The primary objective is to introduce the club and its
@@ -33,12 +33,12 @@ const Event = () => {
         <div className="image w-full my-7 mx-0 relative md:w-1/2 flex justify-between ">
           <img
             className="h-60 w-1/2 md:h-80 rounded-md shadow-2xl "
-            src={img1}
+            src="../../img/Events/img1.jpg"
             alt="one"
           />
           <img
             className="h-60 w-1/2 sm:h-80 rounded-md shadow-xl absolute -top-4 -right-2 "
-            src={img2}
+            src="../../img/Events/img2.jpg"
             alt="two"
           />
         </div>
@@ -48,7 +48,7 @@ const Event = () => {
 
       <div className="flex flex-col-reverse mt-10  first-des md:flex-row-reverse md:items-center md:justify-between md:mt-[4.5rem] ">
         <div className=" w-full md:w-[45%] text-lg text-start">
-          <h2 className="font-bold pb-4">Workshop</h2>
+          <h2 className="font-semibold pb-4">Workshop</h2>
           <p>
             CORSIT offers free workshops on IoT, Arduino, cloud, and more,
             providing students with hands-on experience in building basic bots
@@ -63,12 +63,12 @@ const Event = () => {
         <div className="image w-full my-7 mx-0 relative md:w-1/2 flex justify-between ">
           <img
             className="h-60 w-1/2 md:h-80 rounded-md shadow-2xl "
-            src={img3}
+            src="../../img/Events/imgg3.png"
             alt="one"
           />
           <img
             className="h-60 w-1/2 sm:h-80 rounded-md shadow-xl absolute -top-4 -right-2 "
-            src={img4}
+            src="../../img/Events/imgg4.png"
             alt="two"
           />
         </div>
@@ -78,7 +78,7 @@ const Event = () => {
 
       <div className="flex flex-col-reverse mt-10  first-des md:flex-row md:items-center md:justify-between md:mt-[4.5rem] ">
         <div className=" w-full md:w-[45%] text-lg text-start">
-          <h2 className="font-bold pb-4">Hackathon</h2>
+          <h2 className="font-semibold pb-4">Hackathon</h2>
           <p>
             CORSIT, the Robotics club of SIT, conducts an annual 12-hour
             hackathon since 2017, where students collaborate to find innovative
@@ -91,12 +91,12 @@ const Event = () => {
         <div className="image w-full my-7 mx-0 relative md:w-1/2 flex justify-between ">
           <img
             className="h-60 w-1/2 md:h-80 rounded-md shadow-2xl "
-            src={img5}
+            src="../../img/Events/img5.jpg"
             alt="one"
           />
           <img
             className="h-60 w-1/2 sm:h-80 rounded-md shadow-xl absolute -top-4 -right-2 "
-            src={img6}
+            src="../../img/Events/img6.jpg"
             alt="two"
           />
         </div>
@@ -106,7 +106,7 @@ const Event = () => {
 
       <div className="flex flex-col-reverse mt-10  first-des md:flex-row-reverse md:items-center md:justify-between md:mt-[4.5rem] ">
         <div className=" w-full md:w-[45%] text-lg text-start">
-          <h2 className="font-bold pb-4">Robocor</h2>
+          <h2 className="font-semibold pb-4">Robocor</h2>
           <p>
             Robocor, a nationally renowned Robotics Competition, which is one of
             the biggest events in Karnataka. It provides a platform for
@@ -120,12 +120,12 @@ const Event = () => {
         <div className="image w-full my-7 mx-0 relative md:w-1/2 flex justify-between ">
           <img
             className="h-60 w-1/2 md:h-80 rounded-md shadow-2xl "
-            src={img7}
+            src="../../img/Events/img7.jpg"
             alt="one"
           />
           <img
             className="h-60 w-1/2 sm:h-80 rounded-md shadow-xl absolute -top-4 -right-2 "
-            src={img8}
+            src="../../img/Events/img8.jpg"
             alt="two"
           />
         </div>

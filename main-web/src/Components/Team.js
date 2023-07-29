@@ -11,6 +11,7 @@ import ujjwal from "./images1/aa/UJJAWAL(jpeg).jpg";
 import ketakl from "./images1/aa/_Ketaki.jpg";
 import ashutosh from "./images1/aa/Ashutosh Malviya.jpg";
 import ananya from "./images1/aa/Ananya.jpg";
+import varsha from "./images1/aa/varsha.jpg";
 
 const people = [
   {
@@ -100,12 +101,12 @@ const people = [
     image: "./img/Ashish.jpg",
     role: "Third Year",
   },
-  {
-    name: "BINDUSHREE",
-    linkedin: "https://www.linkedin.com/in/bindushree-b-540257227",
-    image: "./img/Bindushree B, CSE.jpg",
-    role: "Third Year",
-  },
+  // {
+  //   name: "BINDUSHREE",
+  //   linkedin: "https://www.linkedin.com/in/bindushree-b-540257227",
+  //   image: "./img/Bindushree B, CSE.jpg",
+  //   role: "Third Year",
+  // },
   {
     name: "SAMEER KUMAR",
     linkedin: "https://www.linkedin.com/in/sameer-shetty-478481217",
@@ -154,12 +155,12 @@ const people = [
     image: "./img/1si20ec039_jeevitha.jpg",
     role: "Third Year",
   },
-  {
-    name: "SHREE HARSHIKA",
-    linkedin: "https://www.linkedin.com/in/karanam-sree-harshika-76a446219/",
-    image: "./img/HarshikaID (1).jpeg",
-    role: "Third Year",
-  },
+  // {
+  //   name: "SHREE HARSHIKA",
+  //   linkedin: "https://www.linkedin.com/in/karanam-sree-harshika-76a446219/",
+  //   image: "./img/HarshikaID (1).jpeg",
+  //   role: "Third Year",
+  // },
   {
     name: "SHARANYA BHAT",
     linkedin: "https://www.linkedin.com/in/sharanya-bhat-b2070a239",
@@ -205,7 +206,7 @@ const people = [
   {
     name: "SIDDHANT RAJ",
     linkedin: "https://www.linkedin.com/company/corsit/",
-    image: "./img/Siddhant Raj.jpeg",
+    image: "./img/SIDDHANT RAJ.jpg",
     role: "Second Year",
   },
   {
@@ -313,7 +314,7 @@ const people = [
   {
     name: "VARSHA",
     linkedin: "https://www.linkedin.com/in/varsha-t-k-415b25264",
-    image: "./img/varsha.png",
+    image: varsha,
     role: "First Year",
   },
   {

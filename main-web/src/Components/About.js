@@ -1,5 +1,5 @@
 import React from "react";
-import Events from "./Event";
+import Mentor from "./Mentor";
 import Single from "../img/team1b.jpg";
 import Double from "../img/team1a.jpg";
 import Triple from "../img/team1c.jpg";
@@ -10,7 +10,7 @@ const About = () => {
       <h1 className="relative text-center text-3xl font-bold my-7">ABOUT US</h1>
       <div className=" max-w-full py-32  mx-auto grid gap-6 md:grid-cols-2">
         <div className="flex flex-col justify-center">
-          <p className="text-xl text-sky-600 whitespace-normal text-justify font-bold  ">
+          <p className=" text-sky-600 whitespace-normal text-justify font-semibold  ">
             Under the auspices of IIT Bombay's E-yantra cell, SIT's Robotics
             Club stands alone as the only club of its type. The club is
             dedicated to promoting robotics and related activities.
@@ -19,10 +19,8 @@ const About = () => {
 
         <div className="sm:flex flex-col justify-center ">
           <div className="flex flex-col justify-center">
-            {/* <p className="text-2xl text-[#00df9a] font-bold">Location: </p> */}
             <div className="flex  ">
-              {/* <SlLocationPin className="mt-6 mr-1" size={30} /> */}
-              <p className="py-2 text-sky-800 text-justify font-bold">
+              <p className="py-2 text-sky-800 text-justify font-semibold">
                 CORSIT, the robotics club of SIT, is a community of like-minded
                 individuals who share a passion for robotics and come together
                 to learn, build, and have fun with robots. Established in 2006,
@@ -38,6 +36,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Mentor />
       <h1 className="relative text-center text-3xl font-semibold my-7">
         FOUNDERS
       </h1>
@@ -88,7 +87,6 @@ const About = () => {
           </div>
         </div>
       </div>
-      {/* <Events /> */}
     </div>
   );
 };

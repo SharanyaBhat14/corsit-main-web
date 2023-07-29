@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import logo from "../img/corsitlogo.png";
+import { ExternalLink } from "react-external-link";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -15,7 +16,7 @@ const Navbar = () => {
       <nav className="bg-white flex justify-between items-center py-0 px-7 drop-shadow-[0_5px_15px_rgba(0,0,0,0.25)] w-11/12 h-20 rounded-xl fixed top-5 left-1/2 -translate-x-1/2 z-[9999] ">
         <img className="w-20 mt-2 " src={logo} alt="/" />
 
-        <ul className="hidden md:grid grid-cols-[repeat(6,auto)] gap-2 list-none items-center ">
+        <ul className="hidden md:grid grid-cols-[repeat(8,auto)] gap-2 list-none items-center ">
           <li>
             <Link
               className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
@@ -23,6 +24,22 @@ const Navbar = () => {
             >
               Home
             </Link>
+          </li>
+          <li>
+            <ExternalLink
+              className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
+              href="https://robocor-23.cyclic.app/"
+            >
+              Robocor'23
+            </ExternalLink>
+          </li>
+          <li>
+            <ExternalLink
+              className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
+              href="https://hackfest.cyclic.app/"
+            >
+              HackFest
+            </ExternalLink>
           </li>
           <li>
             <Link
@@ -97,6 +114,22 @@ const Navbar = () => {
             >
               Home
             </Link>
+          </li>
+          <li onClick={handleNav} className=" p-4 border-b border-gray-600">
+            <ExternalLink
+              className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out  "
+              href="https://robocor-23.cyclic.app/"
+            >
+              Robocor'23
+            </ExternalLink>
+          </li>
+          <li onClick={handleNav} className=" p-4 border-b border-gray-600">
+            <ExternalLink
+              className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out  "
+              href="https://hackfest.cyclic.app/"
+            >
+              HackFest
+            </ExternalLink>
           </li>
           <li onClick={handleNav} className=" p-4 border-b border-gray-600">
             <Link
