@@ -74,7 +74,7 @@ const Footer = () => {
               <li className=" py-1 text-sm">
                 <a
                   className=" "
-                  href="https://api.whatsapp.com/send?phone=916201928647"
+                  href="https://api.whatsapp.com/send?phone=916006499457"
                   target="_blank"
                   rel="noreferrer"
                 >

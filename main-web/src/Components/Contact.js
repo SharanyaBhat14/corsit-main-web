@@ -45,7 +45,7 @@ const Contact = () => {
             <p className="text-2xl text-sky-600 font-bold">Call: </p>
             <div className="flex  ">
               <FiSmartphone className="mt-3 mr-1" size={30} />
-              <p className="font-semibold text-xl mt-2">6201928647</p>
+              <p className="font-semibold text-xl mt-2">6006499457</p>
             </div>
           </div>
         </div>

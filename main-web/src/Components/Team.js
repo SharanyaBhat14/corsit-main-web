@@ -1,7 +1,7 @@
 import React from "react";
 import { ExternalLink } from "react-external-link";
 import { FaLinkedinIn } from "react-icons/fa";
-import namrata from "./images1/aa/PXL_20220312_103354403.PORTRAIT.jpg";
+import namrata from "./images1/aa/namrata.jpg";
 import jatin from "./images1/aa/JATIN SHARMA (1).jpg";
 import yashaswini from "./images1/aa/YashaswiniK_1.jpg";
 import sharanya from "./images1/aa/SharanyaBhat.jpg";
@@ -261,7 +261,7 @@ const Team = () => {
           <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
             <img
               key={i}
-              className="aspect-square obje w-70 h-56 rounded-xl mx-auto mt-[-3rem] bg-white "
+              className="aspect-square obje w-70 h-56 rounded-xl mx-auto mt-[-3rem] bg-white object-cover "
               src={person.image}
               alt="/"
             />

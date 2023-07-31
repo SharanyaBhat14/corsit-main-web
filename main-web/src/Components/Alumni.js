@@ -31,6 +31,19 @@ import krishnakant from "./images1/raj.jpeg";
 import ranjeet from "./images1/Ranjeet.jpg";
 import amit from "./images1/amit.jpeg";
 import ankit from "./images1/Ankit Gourav.jpg";
+import VM from "./images1/Vishal.jpg";
+import Sb from "./images1/Sudhamshu.jpg";
+import Harshitha from "./images1/Harshitha.jpg";
+import HarshKanth from "./images1/HARSHKANT.jpeg";
+import hrishi from "./images1/Hrishikesh.jpg";
+import amang from "./images1/Aman.jpg";
+import razee from "./images1/Razee.jpg";
+import utk from "./images1/Utkarsh Sahay.jpg";
+import shrutiB from "./images1/Shruti.jpg";
+import ks from "./images1/Kshitiz Singh.jpg";
+import aditiD from "./images1/Aditi.jpg";
+import sumanth from "./images1/Sumanth Jain.jpg";
+import adityRaj from "./images1/ADITYA RAJ.jpg";
 
 const people = [
   {
@@ -287,6 +300,86 @@ const people = [
     ima: tanmay,
     git: "",
     linkedin: "https://www.linkedin.com/in/tanmaytan",
+  },
+  {
+    name: "Vishal Mishra",
+    linkedin: "https://www.linkedin.com/in/vishal-kumar-575724206",
+    ima: VM,
+    role: "Chairman",
+  },
+  {
+    id: 2,
+    name: "Sudhamshu Bhatta S",
+    linkedin: "https://www.linkedin.com/in/sudhamshu-bhat",
+    ima: Sb,
+    role: "Vice Chairman",
+  },
+  {
+    name: "Harshitha M",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    ima: Harshitha,
+    role: "Treasurer",
+  },
+  {
+    name: "Hrishikesh Pradhan",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    ima: hrishi,
+    role: "Treasurer",
+  },
+  {
+    name: "Aman Gupta",
+    linkedin: "https://www.linkedin.com/in/aman-gupta-b420751b2/",
+    ima: amang,
+    role: "Web Dev Lead",
+  },
+  {
+    name: "Aditi Dubey",
+    linkedin: "https://www.linkedin.com/in/aditi-dubey-0007",
+    ima: aditiD,
+    role: "Digital Lead",
+  },
+  {
+    name: "Kshitiz Singh",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    ima: ks,
+    role: "Internal Dev Lead",
+  },
+
+  {
+    name: "Aditya Raj",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    ima: adityRaj,
+    role: "Senior Member",
+  },
+  {
+    name: "Utkarsh Sahay",
+    linkedin: "https://www.linkedin.com/in/utkarsh-sahay-84ab5a222",
+    ima: utk,
+    role: "Senior Member",
+  },
+  {
+    name: "Razee Shrivastav",
+    linkedin: "https://www.linkedin.com/in/razee-srivastav-90034b244",
+    ima: razee,
+    role: "Senior Member",
+  },
+  {
+    name: "Harshkant",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    ima: HarshKanth,
+    role: "Senior Member",
+  },
+  {
+    name: "Shruti Bharadwaj",
+    linkedin: "https://www.linkedin.com/in/shruti-bhardwaj-266344220",
+    ima: shrutiB,
+    role: "Senior Member",
+  },
+  {
+    name: "Sumanth Jain",
+    linkedin: "https://www.linkedin.com/in/sumanth-jain-v-b-9a3188218",
+    ima: sumanth,
+    role: "Senior Member",
   },
 ];
 
