@@ -99,7 +99,7 @@ const people = [
   },
   {
     name: "RISHAV SHEKHAR",
-    linkedin: "https://www.linkedin.com/in/ashumalviya",
+    linkedin: "https://www.linkedin.com/in/rishav-shekhar-a21279232",
     image: "./img/IMG-20221119-WA0000.jpg",
     role: "Second Year",
   },
