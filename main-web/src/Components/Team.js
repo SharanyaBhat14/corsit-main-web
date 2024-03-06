@@ -12,6 +12,28 @@ import ketakl from "./images1/aa/_Ketaki.jpg";
 import ashutosh from "./images1/aa/Ashutosh Malviya.jpg";
 import ananya from "./images1/aa/Ananya.jpg";
 import varsha from "./images1/aa/varsha.jpg";
+import vritika from "./images1/aa/VritikaSavukar.jpg";
+import pavanj from "./images1/aa/PavanJ.jpg"
+import purbayan from "./images1/aa/PurbayanBiswas.jpg"
+import adityaagg from "./images1/aa/AdityaAgarwal.jpg"
+import yash from "./images1/aa/YASHJADHAV.png"
+import dhruva from "./images1/aa/DhruvaD.png"
+import jishnu from "./images1/aa/JishnuKhargharia.jpg"
+import shravya from "./images1/aa/ShravyaGS.jpg"
+import pratik from "./images1/aa/PratikGautam.jpg"
+import rishabh from "./images1/aa/RishabhSingh.jpg"
+import advaita from "./images1/aa/AdvaitaAmrit.jpg"
+import anaya from "./images1/aa/MansiSingh.jpg"
+import abhishek from "./images1/aa/AbhishekKumar.jpg"
+import adityaloc from "./images1/aa/AdityaLochan.JPG"
+import shashank from "./images1/aa/Shashank H.jpg"
+import kritika from "./images1/aa/Kritika.jpg"
+import arpreet from "./images1/aa/ArpreetSingh.jpg"
+import aryan from "./images1/aa/AryanKumarSinha.jpg"
+import tarun from "./images1/aa/TarunMuragodnavar.jpg"
+import jahnvi from "./images1/aa/JahnviSharma.jpg"
+
+
 
 const people = [
   {
@@ -46,32 +68,32 @@ const people = [
     name: "KUNAL",
     linkedin: "https://www.linkedin.com/in/kunal-chanda-104a63226",
     image: "./img/Kunal.jpg",
-    role: "Third Year",
+    role: "Fourth Year",
   },
   {
     name: "TANNISHTHA NANDY",
     linkedin: "https://www.linkedin.com/in/tannistha-nandy-22b8401b9",
     image: "./img/Tannistha Nandy .jpg",
-    role: "Third Year",
+    role: "Fourth Year",
   },
 
   {
     name: "YASHASWINI",
     linkedin: "https://www.linkedin.com/company/corsit/",
     image: yashaswini,
-    role: "Third Year",
+    role: "Fourth Year",
   },
   {
     name: "AYUSHMAN SHARMA",
     linkedin: "https://www.linkedin.com/in/ayushman-sharma-b43623213/",
     image: "./img/Ayushman Sharma.jpeg",
-    role: "Third Year",
+    role: "Fourth Year",
   },
   {
     name: "JEEVITHA",
     linkedin: "https://www.linkedin.com/in/jeevitha-k-a-744405229",
     image: "./img/1si20ec039_jeevitha.jpg",
-    role: "Third Year",
+    role: "Fourth Year",
   },
   {
     name: "UJJAWAL SINGH ",
@@ -83,169 +105,288 @@ const people = [
     name: "SHARANYA BHAT",
     linkedin: "https://www.linkedin.com/in/sharanya-bhat-b2070a239",
     image: sharanya,
-    role: "Second Year",
+    role: "Third Year",
   },
   {
     name: "ASHUTOSH MALVIYA",
     linkedin: "https://www.linkedin.com/in/ashumalviya",
     image: ashutosh,
-    role: "Second Year",
+    role: "Third Year",
   },
   {
     name: "KUMAR HARSH",
     linkedin: "https://www.linkedin.com/in/kumar-harsh-39bb2b249",
     image: "./img/Kumar Harsh.jpg",
-    role: "Second Year",
+    role: "Third Year",
   },
   {
     name: "RISHAV SHEKHAR",
     linkedin: "https://www.linkedin.com/in/rishav-shekhar-a21279232",
     image: "./img/IMG-20221119-WA0000.jpg",
-    role: "Second Year",
-  },
-  {
-    name: "HARSH GAURAV",
-    linkedin: "https://www.linkedin.com/in/harsh-gaurav-1434b624b",
-    image: "./img/Harsh Gaurav.jpg",
-    role: "Second Year",
-  },
-  {
-    name: "LEKHANA PATEL",
-    linkedin: "https://www.linkedin.com/in/lekhana-patel-3b8986225",
-    image: "./img/IMG_20230216_144211.jpg",
-    role: "Second Year",
+    role: "Third Year",
   },
   {
     name: "NAMRATA BHARADWAJ",
     linkedin: "https://www.linkedin.com/company/corsit/",
     image: namrata,
-    role: "Second Year",
-  },
-  {
-    name: "SIDDHANT RAJ",
-    linkedin: "https://www.linkedin.com/company/corsit/",
-    image: "./img/SIDDHANT RAJ.jpg",
-    role: "Second Year",
+    role: "Third Year",
   },
   {
     name: "JATIN SHARMA",
     linkedin: "https://www.linkedin.com/in/jatin-sharma-669590142",
     image: jatin,
-    role: "Second Year",
+    role: "Third Year",
+  },
+  {
+    name: "SIDDHANT RAJ",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    image: "./img/SIDDHANT RAJ.jpg",
+    role: "Third Year",
   },
   {
     name: "SURAJ ARIBENCHI",
     linkedin: "https://www.linkedin.com/company/corsit/",
     image: suraj,
-    role: "Second Year",
+    role: "Third Year",
   },
   {
     name: "VIVEK M",
     linkedin: "https://www.linkedin.com/in/vivekinnovator",
     image: "./img/Vivek M (EEE).jpg",
-    role: "Second Year",
+    role: "Third Year",
   },
   {
     name: "AADARSH SHRINIWAS",
     linkedin: "https://www.linkedin.com/in/aadarsh-shriniwas-512047227",
     image: aadarsh,
-    role: "Second Year",
+    role: "Third Year",
   },
   {
-    name: "VAISHALI CHOUDHARY",
-    linkedin: "https://www.linkedin.com/in/b-vaishali-choudhary-671075239",
-    image: "./img/B Vaishali Choudhary .jpg",
-    role: "Second Year",
+    name: "LEKHANA PATEL",
+    linkedin: "https://www.linkedin.com/in/lekhana-patel-3b8986225",
+    image: "./img/IMG_20230216_144211.jpg",
+    role: "Third Year",
+  },
+  {
+    name: "HARSH GAURAV",
+    linkedin: "https://www.linkedin.com/in/harsh-gaurav-1434b624b",
+    image: "./img/Harsh Gaurav.jpg",
+    role: "Third Year",
   },
   {
     name: "ADITI JOSHI",
     linkedin: "https://www.linkedin.com/in/aditi-joshi-5a260b229",
     image: "./img/Aditi Joshi ECE.jpg",
-    role: "Second Year",
+    role: "Third Year",
+  },
+  {
+    name: "VAISHALI CHOUDHARY",
+    linkedin: "https://www.linkedin.com/in/b-vaishali-choudhary-671075239",
+    image: "./img/B Vaishali Choudhary .jpg",
+    role: "Third Year",
   },
   {
     name: "MAYANK PANDEY",
     linkedin: "https://www.linkedin.com/in/mayank-pandey-1a16b7240",
     image: "./img/Mayank Pandey .jpg",
-    role: "Second Year",
+    role: "Third Year",
   },
-
   {
     name: "BADAL",
     linkedin: "https://www.linkedin.com/company/corsit/",
     image: "./img/BADAL.jpg",
-    role: "Second Year",
+    role: "Third Year",
   },
   {
     name: "ARYAN",
     linkedin: "https://www.linkedin.com/in/aryan-kapoor-86535724b",
     image: "./img/Aryan.jpg",
-    role: "Second Year",
+    role: "Third Year",
   },
   {
     name: "CHAITHRA H R",
     linkedin: "https://www.linkedin.com/company/corsit/",
     image: "./img/_Chaithra HR , AIML.jpg",
-    role: "First Year",
+    role: "Second Year",
   },
   {
     name: "KETAKI JOJANE",
     linkedin: "https://www.linkedin.com/in/ketaki-jojane-a030a7265",
     image: ketakl,
-    role: "First Year",
+    role: "Second Year",
   },
   {
     name: "OM",
     linkedin: "https://www.linkedin.com/company/corsit/",
     image: "./img/_Om .jpg",
-    role: "First Year",
+    role: "Second Year",
   },
   {
     name: "AISHWARYA ACHARYA P K",
     linkedin: "https://www.linkedin.com/in/aishwarya-acharya-pk-a9b661258",
     image: "./img/Aishwarya Acharya PK ,ISE.jpg",
-    role: "First Year",
-  },
-  {
-    name: "MUDIT SHEKHAR",
-    linkedin: "https://www.linkedin.com/company/corsit/",
-    image: "./img/Mudit shekhar , EEE.jpg",
-    role: "First Year",
-  },
-  {
-    name: "NEETHU",
-    linkedin: "https://www.linkedin.com/in/neethu-546b23264",
-    image: "./img/Neethu.jpg",
-    role: "First Year",
+    role: "Second Year",
   },
   {
     name: "NM SAI LIKHITHA",
     linkedin: "https://www.linkedin.com/in/sailikhithanm",
     image: "./img/NM Sai Likhitha.jpg",
-    role: "First Year",
+    role: "Second Year",
+  },
+  {
+    name: "MUDIT SHEKHAR",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    image: "./img/Mudit shekhar , EEE.jpg",
+    role: "Second Year",
+  },
+  {
+    name: "NEETHU",
+    linkedin: "https://www.linkedin.com/in/neethu-546b23264",
+    image: "./img/Neethu.jpg",
+    role: "Second Year",
   },
   {
     name: "VARSHA",
     linkedin: "https://www.linkedin.com/in/varsha-t-k-415b25264",
     image: varsha,
-    role: "First Year",
+    role: "Second Year",
   },
   {
     name: "YATIN BHATIA",
     linkedin: "https://www.linkedin.com/company/corsit/",
     image: "./img/YATIN BHATIA.jpg",
-    role: "First Year",
+    role: "Second Year",
   },
   {
     name: "GURU SRISHA",
     linkedin: "https://www.linkedin.com/in/guru-srisha-45a699263/",
     image: "./img/Guru Srisha.jpg",
-    role: "First Year",
+    role: "Second Year",
   },
   {
     name: "ANANYA C R",
     linkedin: "https://www.linkedin.com/in/c-r-ananya-71a052259",
     image: ananya,
+    role: "Second Year",
+  },
+  {
+    name: "VRITIKA V SAVUKAR",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    image: vritika,
+    role: "Second Year",
+  },
+  {
+    name: "PAVAN J",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    image: pavanj,
+    role: "Second Year",
+  },
+  {
+    name: "PURBAYAN BISWAS",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    image: purbayan,
+    role: "Second Year",
+  },
+  {
+    name: "ADITYA AGARWAL",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    image: adityaagg,
+    role: "Second Year",
+  },
+  {
+    name: "Tarun S M",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    image: tarun,
+    role: "First Year",
+  },
+  {
+    name: "ADITYA LOCHAN",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    image: adityaloc,
+    role: "First Year",
+  },
+  {
+    name: "SHRAVYA G S",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    image: shravya,
+    role: "First Year",
+  },
+  {
+    name: "ARYAN KUMAR",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    image: aryan,
+    role: "First Year",
+  },
+  {
+    name: "Shashank H",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    image: shashank,
+    role: "First Year",
+  },
+  {
+    name: "Jishnu khagaria",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    image: jishnu,
+    role: "First Year",
+  },
+  {
+    name: "ABHISHEK",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    image: abhishek,
+    role: "First Year",
+  },
+  {
+    name: "JAHNVI SHARMA",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    image: jahnvi,
+    role: "First Year",
+  },
+  {
+    name: "DHRUVA D",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    image: dhruva,
+    role: "First Year",
+  },
+  {
+    name: "ADVAITA AMRIT",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    image: advaita,
+    role: "First Year",
+  },
+  {
+    name: "RISHABH SINGH",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    image: rishabh,
+    role: "First Year",
+  },
+  {
+    name: "YASH JADHAV",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    image: yash,
+    role: "First Year",
+  },
+  {
+    name: "PRATIK GAUTAM",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    image: pratik,
+    role: "First Year",
+  },
+  {
+    name: "KRITIKA",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    image: kritika,
+    role: "First Year",
+  },
+  {
+    name: "ARPREET SINGH",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    image: arpreet,
+    role: "First Year",
+  },
+  {
+    name: "ANAYA SINGH",
+    linkedin: "https://www.linkedin.com/company/corsit/",
+    image: anaya,
     role: "First Year",
   },
 ];

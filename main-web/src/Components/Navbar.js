@@ -26,12 +26,13 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <ExternalLink
+            <Link
               className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
-              href="https://robocor-23.cyclic.app/"
+              to="https://robocor-23.cyclic.app"
+              target="_blank"
             >
-              Robocor'23
-            </ExternalLink>
+              ROBOCOR'23
+            </Link>
           </li>
           <li>
             <ExternalLink
@@ -41,15 +42,7 @@ const Navbar = () => {
               HackFest
             </ExternalLink>
           </li>
-          <li>
-            <Link
-              className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
-              to="https://robocor-23.cyclic.app"
-              target="_blank"
-            >
-              ROBOCOR'23
-            </Link>
-          </li>
+          
           <li>
             <Link
               className="text-sky-950 text-xl font-semibold decoration-0 py-3 px-4 whitespace-nowrap hover:bg-sky-600 hover:text-white hover:rounded hover:ease-in-out"
